@@ -1,0 +1,58 @@
+.topnav {
+  float: right;
+  padding-top: :60px;
+  padding-bottom: 80px;
+
+}
+
+.topnav a{
+  padding: 12px;
+  font-size: 16px;
+  width: 33.33%;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+h1 {
+padding: 60px;
+font-size: 56px;
+font-weight: bold;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+line-height: 150%;
+color: #000000;
+font-family: arial;
+}
+
+body {
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: semibold;
+  font-family: serif;
+}
+
+h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+html {
+  background-color: #F3F5EF;
+}
+.main-banner{
+  background-color: green;
+}
+.billow-project {
+  background-color: orange;
+}
+
+.busybus-project {
+  background-color: purple;
+
+}
