@@ -1,7 +1,7 @@
 .topnav {
   float: right;
-  padding-top: :60px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -12,47 +12,111 @@
   text-transform: uppercase;
   text-align: center;
   color: black;
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
 }
 
 h1 {
 padding: 60px;
-font-size: 56px;
+font-size: 52px;
 font-weight: bold;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 line-height: 150%;
 color: #000000;
-font-family: arial;
 }
 
 body {
-  font-size: 16px;
-  font-family: helvetica;
+  background-color: #F3F5EF
+}
+
+p{
+  font-size: 1.6em;
+  line-height: 125%;
+  margin-top: .5rem;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 52px;
   font-weight: semibold;
-  font-family: serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 150%;
 }
 
 h3 {
   font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 125%;
 }
 
 html {
   background-color: #F3F5EF;
+  font-size: 20px;
 }
+
+.container {
+  background-color: white;
+  /*height:100vh;*/
+  margin: 0 auto;
+  width: 90%;
+}
+
+section {
+  background-color: #F3F5EF
+  color: black;
+  height: 20rem;
+  margin-top: 1rem;
+  padding: 100px 0px;
+}
+
+section.projects{
+  background-color: red;
+  height: 5rem;
+  padding: 1rem 1rem;
+}
+section.topnav {
+    height: 5rem;
+}
+
 .main-banner{
   background-color: green;
 }
+
 .billow-project {
   background-color: orange;
+  padding-left: 80px;
 }
 
 .busybus-project {
   background-color: purple;
+  padding-left: 80px;
+}
 
+footer{
+  background-color: yellow;
+  padding-left: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    background-color: pink;
+    /*height:100vh;*/
+    margin: 0 auto;
+    width: 98rem;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .container {
+    background-color: yellow;
+    /*height:100vh;*/
+    margin: 0 auto;
+    width: 70rem;
+  }
 }
