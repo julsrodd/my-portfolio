@@ -1,8 +1,15 @@
+
+.logo {
+  position: absolute;
+  height: 83px;
+  width: 95px;
+
+}
 .topnav {
   float: right;
   padding-top: 20px;
   padding-bottom: 20px;
-
+  padding-left: 80px;
 }
 
 .topnav a{
@@ -82,13 +89,11 @@ section {
   padding: 100px 0px;
 }
 
+
 section.projects{
   background-color: red;
   height: 5rem;
   padding: 1rem 1rem;
-}
-section.topnav {
-    height: 5rem;
 }
 
 .main-banner{
