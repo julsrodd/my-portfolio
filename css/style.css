@@ -1,14 +1,18 @@
 
+.aside {
+  display: block;
+}
+
 .logo {
   position: absolute;
-  height: 83px;
+  height:83px;
   width: 95px;
 
 }
 .topnav {
   float: right;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
   padding-left: 80px;
 }
 
@@ -23,13 +27,22 @@
   text-decoration: none;
 }
 
+.icon {
+position:
+width: 164px;
+height: 184px;
+left: 1177px;
+right: 1000px;
+top: 2000px;
+}
+
 *{
   box-sizing: border-box;
 }
 
 h1 {
 font-family: Muli;
-padding: 80px;
+padding: 24px;
 font-size: 52px;
 font-weight: bold;
 letter-spacing: 0.05em;
@@ -45,7 +58,7 @@ body {
 p{
 font-family: Public Sans;
   font-size: 1rem;
-  line-height: 125%;
+  line-height: 150%;
   margin-top: .5rem;
 }
 
@@ -75,18 +88,19 @@ html {
 
 .container {
   background-color: white;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
   /*height:100vh;*/
   margin: 0 auto;
   width: 90%;
+  overflow: hidden;
 }
 
 section {
-  margin: 1%;
-  background-color: #F3F5EF
-  color: black;
-  height: 20rem;
-  margin-top: 1rem;
-  padding: 100px 0px;
+/*float: left;*/
+margin: 1%;
+  width: 100%;
 }
 
 
@@ -96,6 +110,10 @@ section.projects{
   padding: 1rem 1rem;
 }
 
+section.main-banner{
+  padding: 200px 60px;
+}
+
 .main-banner{
   background-color: green;
 }
@@ -103,6 +121,12 @@ section.projects{
 .billow-project {
   background-color: orange;
   padding-left: 80px;
+}
+.billow-project billow-image {
+width: 700px;
+height: 400px;
+left: 558px;
+top: 104px;
 }
 
 .busybus-project {
@@ -132,7 +156,7 @@ hr {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
   .container {
     background-color: pink;
     /*height:100vh;*/
@@ -141,11 +165,12 @@ hr {
   }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .container {
     background-color: yellow;
+    grid-template-columns: 6fr 6fr;
     /*height:100vh;*/
     margin: 0 auto;
-    width: 70rem;
+    width: 80%;
   }
 }
