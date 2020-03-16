@@ -88,11 +88,11 @@ html {
 
 .container {
   background-color: white;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr;
+  /*display: grid;*/
+  /*grid-gap: 1rem 2rem;*/
+  /*grid-template-columns: 1fr;*/
   /*height:100vh;*/
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: 90%;
   overflow: hidden;
 }
@@ -168,9 +168,9 @@ hr {
 @media screen and (min-width: 768px) {
   .container {
     background-color: yellow;
-    grid-template-columns: 6fr 6fr;
+    /*grid-template-columns: 6fr 6fr;*/
     /*height:100vh;*/
-    margin: 0 auto;
-    width: 80%;
+    /*margin: 0 auto;*/
+    width: 95%;
   }
 }
