@@ -1,7 +1,4 @@
-
-.aside {
-  display: block;
-}
+/*menu*/
 
 .logo {
   position: absolute;
@@ -9,11 +6,17 @@
   width: 95px;
 
 }
+
+.main-menu a:hover{
+  color: #DB9034;
+}
+
 .topnav {
   float: right;
   padding-top:20px;
   padding-bottom:20px;
   padding-left: 80px;
+  padding-right: 60px;
 }
 
 .topnav a{
@@ -25,15 +28,6 @@
   text-align: center;
   color: black;
   text-decoration: none;
-}
-
-.icon {
-position:
-width: 164px;
-height: 184px;
-left: 1177px;
-right: 1000px;
-top: 2000px;
 }
 
 *{
@@ -86,6 +80,9 @@ html {
   font-size: 20px;
 }
 
+.b1-container a:hover {
+  color: #DB9034;
+}
 .container {
   background-color: white;
   /*display: grid;*/
@@ -103,47 +100,224 @@ margin: 1%;
   width: 100%;
 }
 
+/*Homepage*/
+.icon {
+fposition: absolute;
+right: 0px;
+}
 
 section.projects{
-  background-color: red;
+  background-color: #F3F5EF;
   height: 5rem;
   padding: 1rem 1rem;
 }
 
-section.main-banner{
-  padding: 200px 60px;
+.billow-project p {
+  width: 237px;
 }
 
-.main-banner{
-  background-color: green;
+.b1-container{
+  display: flex;
+flex-direction: column;
+align-content: start;
+}
+
+.b1-container a{
+  font-family: Public Sans;
+  line-height: 150%;
+  text-decoration: underline;
+  color: black;
+
 }
 
 .billow-project {
-  background-color: orange;
+  background-color: #F3F5EF;
   padding-left: 80px;
-}
-.billow-project billow-image {
-width: 700px;
-height: 400px;
-left: 558px;
-top: 104px;
+  display: flex;
+  flex-direction; row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .busybus-project {
-  background-color: purple;
+  background-color: orange;
   padding-left: 80px;
+  display: flex;
+  flex-direction; row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.busybus-project p {
+width: 237px;
+line-height:150%;
+}
+
+.left-square {
+  position: absolute;
+  left: 0px;
+}
+
+.b2-container img{
+  display: flex;
+flex-direction: row;
+}
+
+.right-square {
+  position: absolute;
+  right: 0px;
+}
+
+.b3-container {
+display: flex;
+flex-direction: column;
+align-content: start;
+}
+
+.b4-container img {
+display: flex;
+flex-direction: row;
+}
+
+
+
+/*billow case study*/
+
+.billow-intro {
+  width: 1435px;
+}
+
+section.billow-banner {
+  padding-top:200px;
+
+}
+
+.billow-intro p {
+  width: 608px;
+}
+
+
+
+/*.billow-image {
+width: 500px;
+height:300px;
+/*left: 558px;*/
+/*top: 104px;*/
+}
+
+.billow-project a:hover {
+  color: #DB9034;
+}
+
+
+.busybus-project {
+  background-color: #F3F5EF;
+  padding-left: 80px;
+}
+.busybus-project a {
+  font-family: Public Sans;
+  text-decoration: underline;
+  color: black;
+}
+
+.busybus-project a:hover {
+  color: #DB9034;
+}
+
+/*About Page */
+section.main-banner{
+  padding: 200px;
+}
+
+.main-banner section-divider {
+  width: 1224px;
+  color:black;
+}
+
+.main-banner h2 {
+  width: 976px;
+  height: 234px;
+  left: 154px;
+  top: 251px;
+}
+
+.main-banner{
+  background-color: #F3F5EF;
+}
+
+.bio p {
+  width: 591px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.bio blockquote {
+  font-family: Muli;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+width: 507px;
+}
+
+/*Contact*/
+
+.contact-container {
+width: 1440px;
+height: 716px;
+top: 240px;
+
+}
+
+.contact-cta {
+  padding-top: 136px;
+  width:1318px;
+  display: flex;
+  flex-direction: row;
+}
+
+.c2-container{
+  display: flex;
+flex-direction: column;
+}
+
+.form-container {
+display: flex;
+flex-direction: row;
+align-content: flex-end;
+}
+
+form {
+  font-family: Public Sans;
+  padding-left:60px;
+}
+
+button[type="submit"] {
+background-color: white;
+border-color: black;
+font-family: Public Sans;
+font-size: 20px;
+width: 343px;
+height: 63px;
+}
+
+.form button {
+  padding-left: 60px;
 }
 
 footer{
-  background-color: yellow;
+  background-color: #F3F5EF;
 
 }
 
-.footer a {
+footer a {
   font-family: Public Sans;
   font-size: 16px;
   text-decoration: none;
   padding-left: 80px;
+}
+footer a:hover{
+  color: #DB9034;
 }
 
 hr {
@@ -153,8 +327,9 @@ hr {
   margin-bottom: 0.5em;
   border-style: inset;
   border-width: 1px;
-
 }
+
+
 
 @media screen and (min-width: 1025px) {
   .container {

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   </head>
 <body>
-  <div class= "container">
+  <div class= "contact-container">
   <section>
     <a href="Index.html"><img class="logo" src="images/jrlogo.png" alt="Julianna Rodríguez Logo"></a>
     <nav class="topnav">
@@ -19,16 +19,20 @@
     <a href="Contact.html">Contact</a>
     </nav>
   </section>
-  <section>
+  <section class="contact-cta">
+    <div class="c2-container">
     <h2>LET’S CHAT!</h2>
     <p>I am always down for making new connections and talk
       <br>about design. Please feel free to contact me.
+    </div>
     </section>
 
-    <form
-  action="https://formspree.io/mdodgjzb"
-  method="POST"
->
+<section>
+    <form action="https://formspree.io/mdodgjzb" method="POST">
+      <label>
+        Name:
+        <input type="text" name="_replyto">
+      </label>
   <label>
     Your email:
     <input type="text" name="_replyto">
@@ -36,15 +40,13 @@
   <label>
     Your message:
     <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
+  </label>  
+</section>
+<button type="submit">Send</button>
 </form>
-
   <footer>
     <hr>
+
 <a href="Contact.html">CONTACT</a>
   <!-- Copyright -->
 <p class="copyright">&copy; Designed and Developed by Julianna Rodríguez</p>
