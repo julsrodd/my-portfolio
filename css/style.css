@@ -36,7 +36,7 @@
 
 h1 {
 font-family: Muli;
-padding: 24px;
+/*padding: 24px;*/
 font-size: 52px;
 font-weight: 700;
 letter-spacing: 0.05em;
@@ -102,7 +102,7 @@ margin: 1%;
 
 /*Homepage*/
 .icon {
-fposition: absolute;
+position: absolute;
 right: 0px;
 }
 
@@ -110,6 +110,17 @@ section.projects{
   background-color: #F3F5EF;
   height: 5rem;
   padding: 1rem 1rem;
+}
+
+.main-banner h2 {
+  width: 976px;
+  height: 234px;
+  left: 154px;
+  top: 251px;
+}
+
+.main-banner{
+  background-color: #F3F5EF;
 }
 
 .billow-project p {
@@ -140,7 +151,6 @@ align-content: start;
 }
 
 .busybus-project {
-  background-color: orange;
   padding-left: 80px;
   display: flex;
   flex-direction; row;
@@ -179,22 +189,74 @@ display: flex;
 flex-direction: row;
 }
 
-
+.section-divider2 {
+color:black;
+}
 
 /*billow case study*/
 
-.billow-intro {
-  width: 1435px;
+.billow-banner{
+  background-color: #F3F5EF;
+  padding-left: 80px;
+  display: flex;
+  flex-direction; row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.billow-banner img {
+  width: 580px;
+  display: flex;
+  flex-direction: row;
+}
+
+.b-container{
+display: flex;
+flex-direction: column;
+align-content: start;
+padding: 60px;
+width: 528px;
+}
+
+.b-container p {
+width: 486px;
+}
+
+.b-container a {
+  font-family: Public Sans;
+  text-decoration: underline;
+  color: black;
 }
 
 section.billow-banner {
-  padding-top:200px;
-
+  padding-top:80px;
 }
 
-.billow-intro p {
+.problem-banner {
+  height: 295px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction; row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p1-container {
+    width: 580px;
+    display: flex;
+    flex-direction: row;
+}
+
+.p2-container p {
+  width: 600px;
+}
+
+
+
+
+/*.billow-intro p {
   width: 608px;
-}
+}*/
 
 
 
@@ -234,16 +296,7 @@ section.main-banner{
   color:black;
 }
 
-.main-banner h2 {
-  width: 976px;
-  height: 234px;
-  left: 154px;
-  top: 251px;
-}
 
-.main-banner{
-  background-color: #F3F5EF;
-}
 
 .bio p {
   width: 591px;
