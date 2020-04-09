@@ -60,7 +60,7 @@ h2 {
   font-family: Muli;
   font-weight: 600;
   font-size: 42px;
-  padding-left: 80px;
+  /*padding-left: 80px;*/
   letter-spacing: 0.05em;
   text-transform: uppercase;
   line-height: 150%;
@@ -249,6 +249,17 @@ section.billow-banner {
 
 .p2-container p {
   width: 600px;
+}
+
+section.solution {
+  text-align: center;
+}
+.solution-p {
+  font-family: Public Sans;
+  line-height: 150%;
+  text-align: center;
+  padding-left: 350px;
+  padding-right:350px;
 }
 
 
