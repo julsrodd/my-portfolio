@@ -300,6 +300,42 @@ section.result {
   width: 813px;
 }
 
+section.ia {
+  padding-left: 350px;
+}
+
+section.ia p {
+width: 530px;
+}
+
+table {
+  font-family: Public Sans;
+  line-height: 150%;
+  margin: 40px;
+  border-color: black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table th {
+  background-color: white;
+}
+
+th.high {
+  background-color: blue;
+}
+
+section.ca-section {
+  background-color: #CED0CA;
+}
+
+.ut-section {
+  background-color: #CED0CA;
+}
+
 
 /*busybus case study*/
 
@@ -318,10 +354,13 @@ section.result {
   color: #DB9034;
 }
 
+
+
 /*About Page */
 section.about-main{
   padding-top:200px;
   padding-left: 160px;
+  padding-right: 160px;
   padding-bottom: 100px;
   align-content: center;
 }
