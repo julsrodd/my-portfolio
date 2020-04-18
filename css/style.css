@@ -6,7 +6,7 @@
   width: 95px;
 }
 
-.main-menu a:hover{
+.topnav a:hover{
   color: #DB9034;
 }
 
@@ -15,13 +15,13 @@
   padding-top:20px;
   padding-bottom:20px;
   padding-left: 80px;
-  padding-right: 60px;
+  padding-right: 160px;
 }
 
 .topnav a{
   font-family: Public Sans;
-  padding: 20px;
   font-size: 16px;
+  padding: 60px;
   width: 33.33%;
   text-transform: uppercase;
   text-align: center;
@@ -375,7 +375,6 @@ section.about-main{
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 100px;
-  align-content: center;
 }
 
 hr.main-divider {
@@ -386,6 +385,9 @@ hr.main-divider {
 
 .bio h2 {
   margin: 0 auto;
+  width: 327px;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -394,15 +396,18 @@ hr.main-divider {
   width: 591px;
   display: flex;
   align-items: center;
-  text-align: center;
 }
 
-.img bio-photo {
-  display: inline-block;
+bio-photo {
+padding-left: 574px;
+padding-right: 550px;
 }
 
 .bio h3 {
   margin: 0 auto;
+  width: 166px;
+  display: flex;
+  text-align: center;
 }
 
 .bio blockquote {
@@ -418,28 +423,32 @@ padding: 20px;
 
 /*Contact*/
 
-.contact-container {
+/*.contact-container {
 width: 1440px;
 height: 716px;
 top: 240px;
+}*/
 
-}
-
-.contact-cta {
+section.contact-cta {
   padding-top: 136px;
   width:1318px;
   display: flex;
   flex-direction: column;
+  float: left;
 }
 
 .c2-container{
-  display: flex;
+display: flex;
 flex-direction: column;
+float: right;
 }
 
-form {
+.contact-cta form {
   font-family: Public Sans;
   padding-left:60px;
+  display: flex;
+  flex-direction: column;
+  float: right;
 }
 
 input {
@@ -448,6 +457,7 @@ input {
   color: #C4C4C4;
   background-color: #F3F5EF;
   border: 1px solid #000000;
+  padding-left: 10px;
   margin: 24px;
   width: 600px;
   height: 60px;
@@ -458,6 +468,7 @@ textarea {
   width: 602px;
   height: 303px;
   margin: 24px;
+  padding-left: 10px;
   font-family: Public Sans;
   color: #C4C4C4;
   font-size: 20px;
@@ -476,6 +487,10 @@ width: 343px;
 height: 63px;
 }
 
+
+
+/*footer*/
+
 footer {
   background-color: #F3F5EF;
   width:100%;
@@ -493,7 +508,6 @@ footer a:hover{
 
 hr.f-divider {
   border: 1px solid #000000;
-
 
 }
 
