@@ -83,7 +83,7 @@ html {
 }
 .container {
   background-color:#F3F5EF;
-  /*display: grid;*/
+  display: grid;
   /*grid-gap: 1rem 2rem;*/
   /*grid-template-columns: 1fr;*/
   /*height:100vh;*/
@@ -422,30 +422,42 @@ padding: 20px;
 }
 
 /*Contact*/
-
-/*.contact-container {
+.contact-cta p {
+  width: 437px;
+}
+.contact-container {
 width: 1440px;
 height: 716px;
 top: 240px;
-}*/
+}
 
 section.contact-cta {
   padding-top: 136px;
   width:1318px;
-  display: flex;
-  flex-direction: column;
+  display: block;
   float: left;
 }
+
+section.contact-cta {
+  padding-left: 118px;
+}
+
+/*section.contact-cta h1 {
+padding-right: 300px;
+}*/
 
 .c2-container{
 display: flex;
 flex-direction: column;
 float: right;
+padding-bottom: 150px;
+
 }
 
-.contact-cta form {
+.c2-container form {
   font-family: Public Sans;
-  padding-left:60px;
+  width: 599px;
+  padding-left:200px;
   display: flex;
   flex-direction: column;
   float: right;
@@ -485,6 +497,7 @@ font-family: Public Sans;
 font-size: 20px;
 width: 343px;
 height: 63px;
+align-self: center;
 }
 
 
