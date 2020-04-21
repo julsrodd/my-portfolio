@@ -196,7 +196,8 @@ flex-direction: row;
 }
 
 .section-divider2 {
-color:black;
+  border: 1px solid #000000;
+
 }
 
 hr.ca-divider {
@@ -247,7 +248,7 @@ section.billow-banner {
 
 .problem-banner {
   height: 295px;
-  padding-left: 80px;
+  padding-left: 40px;
   display: flex;
   flex-direction; row;
   align-items: center;
@@ -255,18 +256,32 @@ section.billow-banner {
 }
 
 .p1-container {
-    width: 580px;
+    /*width: 580px;*/
     display: flex;
     flex-direction: row;
 }
 
 .p2-container p {
   width: 600px;
+  padding-right: 40px;
 }
 
 section.solution {
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
+
+.solution h2 {
+align-self: center;
+}
+
+.solution img {
+align-self: center;
+width: 30%;
+padding: 20px;
+}
+
 .solution-p {
   font-family: Public Sans;
   line-height: 150%;
@@ -334,19 +349,66 @@ th.high {
   background-color: blue;
 }
 
+section.wireframes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 66px 123px 20px 177px;
+}
+
+.wf-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+  padding: 20px;
+}
+
+.wireframes p {
+
+}
+
 section.ca-section {
   background-color: #CED0CA;
   width: 100%;
   margin: 0px;
-  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .ca-section p {
   width: 95%;
+  padding-left: 356px;
+  padding-right: 332px;
+  padding-bottom: 20px;
 }
 
+.ca-section h3 {
+align-self: center;
+padding: 20px;
+}
+
+.competitors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+
+}
 .ut-section {
   background-color: #CED0CA;
+  margin: 0px;
+  padding: 150px 320px;
+}
+
+.ut-1 {
+  background-color: #CED0CA;
+  margin: 0px;
+  padding: 46px 378px 73px 328px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
 }
 
 
@@ -526,8 +588,8 @@ hr.f-divider {
 
 hr.orange-divider {
   border: 1px solid #DB9034;
-  width: 90%;
-}
+  width: 95%;
+  align-items: center;
 
 @media screen and (min-width: 1025px) {
   .container {
