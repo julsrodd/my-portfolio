@@ -472,12 +472,12 @@ padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 30px;
+  align-self: center;
 }
 
 .competitors img {
   padding:20px;
-  margin: 30px;
+  margin: 20px;
 }
 
 section.wireframes {
@@ -519,11 +519,79 @@ section.wireframes a {
    width: 1100px;
  }
 
+ .brand-1 h3 {
+   padding-top:40px;
+
+ }
+
+ section.brand-2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-self: center;
+   padding: 40px;
+ }
+
+
  .bp-right{
    display: flex;
    flex-direction: column;
    justify-content: center;
  }
+
+ img.moodboard {
+   width:325px;
+   height: 251px;
+ }
+
+ img.logo-sketches {
+padding-right: 20px;
+margin-right: 40px;
+ }
+
+ .bp-right img {
+   padding: 20px;
+   margin-left: 40px;
+ }
+
+ section.palette {
+   background-color: #CED0CA;
+   margin: 0px;
+   border-bottom: 1px solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding:40px;
+   align-content: center;
+ }
+
+section.palette p {
+  width: 490px;
+}
+
+ .billow-brand {
+   display: flex;
+   flex-direction: row;
+justify-content: flex-end;
+   width: 454px;
+ }
+
+ section.hf-mock {
+   display: flex;
+   flex-direction:column;
+justify-content: center;
+align-items: center;
+ }
+
+.hf-mock2 {
+  display: flex;
+  flex-direction:row;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
 
 
 
