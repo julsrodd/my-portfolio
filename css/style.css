@@ -71,7 +71,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  line-height: 125%;
+  line-height: 150%;
 }
 
 html {
@@ -181,6 +181,7 @@ line-height:150%;
 .b2-container img{
   display: flex;
 flex-direction: row;
+width: 80%;
 }
 
 .billow-project a:hover {
@@ -441,9 +442,7 @@ section.wireframes {
 
 
 
-section.result {
-  width: 813px;
-}
+
 
 section.ca-section {
   background-color: #CED0CA;
@@ -577,28 +576,102 @@ justify-content: flex-end;
  }
 
  section.hf-mock {
+   margin: 0px;
+   border-bottom: 1px solid black;
    display: flex;
-   flex-direction:column;
-justify-content: center;
-align-items: center;
+   flex-direction: row;
+     justify-content: space-around;
+     padding: 60px;
+
  }
 
-.hf-mock2 {
+section.hf-mock h2 {
+  padding: 10px;
+}
+
+
+section.hf-mock p {
+  width: 495px;
+}
+
+.hf-mock2 img {
   display: flex;
   flex-direction:row;
+ justify-content: flex-end;
+ width: 662px;
+}
+
+.hf-mock1 {
+  padding-right: 40px;
+}
+
+section.pref-test {
+    margin: 0px;
+    padding: 60px;
+    border-bottom: 1px solid black;
+  display: flex;
+  flex-direction:column;
  justify-content: center;
  align-items: center;
 }
 
+.pref-test2 img {
+  padding:20px 10px 40px 10px;
+}
 
 
+section.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0px;
+  padding: 60px;
+}
 
+section.result p {
+  width: 815px;
+}
 
+section.result h2 h3 {
+  padding: 20px;
+  margin: 10px;
+}
+
+section.b-improv {
+  background-color: #CED0CA;
+  margin: 0px;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+section.b-improv p {
+  width: 780px;
+}
 
 .ut-section {
   background-color: #CED0CA;
   margin: 0px;
   padding: 150px 320px;
+}
+
+#myBtn {
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#CED0CA ; /* Set a background color */
+  font-weight: 700;
+  margin-top: 20px;
+  color: Black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 18px; /* Increase font size */
 }
 
 
@@ -622,17 +695,24 @@ align-items: center;
 
 
 /*About Page */
-section.about-main{
-  padding-top:200px;
-  padding-left: 160px;
-  padding-right: 160px;
-  padding-bottom: 100px;
+
+section.about-main {
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-content: center;
+padding-top: 80px;
 }
 
-hr.main-divider {
-  border: 1px solid #DB9034;
-  width: 1224px;
-  align-self: baseline;
+section.about-main h2 {
+  width: 1016px;
+  align-self: center;
+}
+
+
+section.bio {
+  border-bottom: 1px solid #DB9034;
+  padding: 40px;
 }
 
 .bio h2 {
@@ -648,12 +728,22 @@ hr.main-divider {
   width: 591px;
   display: flex;
   align-items: center;
+
 }
 
-bio-photo {
-padding-left: 574px;
-padding-right: 550px;
+.bio-img {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding-left: 20px 316px 20px 327px;
 }
+
+.bio-photo{
+  align-self: center;
+    width: 20%;
+      padding-top: 40px;
+}
+
 
 .bio h3 {
   margin: 0 auto;
@@ -671,6 +761,34 @@ font-size: 20px;
 line-height: 150%;
 width: 507px;
 padding: 20px;
+}
+
+section.a-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding: 60px;
+}
+
+section.a-cta h3 {
+  width: 578px;
+}
+
+#contactme {
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: Black ; /* Set a background color */
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: Public Sans;
+  color:  #F3F5EF; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 20px 60px; /* Some padding */
+  font-size: 18px; /* Increase font size */
 }
 
 /*Contact*/
@@ -760,25 +878,24 @@ align-self: center;
 
 /*footer*/
 
+section.f-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.footer-right img {
+  padding-right:16px;
+}
+
 footer {
   background-color: #F3F5EF;
   width:100%;
+  border-top: 1px solid black;
 }
 
-footer a {
-  font-family: Public Sans;
-  font-size: 16px;
-  text-decoration: none;
-  padding-left: 80px;
-}
-footer a:hover{
-  color: #DB9034;
-}
 
-hr.f-divider {
-  border: 1px solid #000000;
-
-}
 
 hr.orange-divider {
   border: 1px solid #DB9034;
