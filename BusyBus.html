@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Billow</title>
+    <title>BusyBus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700&display=swap" rel="stylesheet">
@@ -19,44 +19,53 @@
       <a href="#contact">Contact</a>
       </nav>
     </section>
-    <section>
-      <img src="" alt="">
-    <h1>BUSYBUS</h1>
-    <p>Role: Ux Designer, Visual Designer, UX Research</p>
-    <p>Tools: Figma, Github, Paper Prototypes</p>
-    <p>Deliverables: User Surveys, Competitive Analysis, User Stories, Paper Prototype, Wireframes, User Testing, Visual Design</p>
-    <a href="#">View Prototype</a>
-    </section>
-    <hr class="section-divider2">
+    <section class="bb-main">
+      <img src="images/busybus-final.png" alt="BusyBus Final">
+      <div class="bb-intro">
+        <h1>BUSYBUS</h1>
+        <p>Role: Ux Designer, Visual Designer, UX Research</p>
+        <p>Tools: Figma, Github, Paper Prototypes</p>
+        <p>Deliverables: User Surveys, Competitive Analysis, User Stories, Paper Prototype, Wireframes, User Testing, Visual Design</p>
+        <a href="#">View Prototype</a>
+      </div>
 
-    <section>
+    </section>
+
+
+    <section class="bb-problem">
       <h2>PROBLEM</h2>
       <p>Riders are complaining about not knowing when their bus is arriving to the Washington & State stop. They can no longer assume the bus they see in the distance is theirs because several new bus routes have recently been added.</p>
     </section>
-    <hr class="section-divider2">
 
-    <section>
+    <section class="bb-solution">
       <h2>SOLUTION</h2>
       <p>Busy Bus is designed to logically show riders in a very simple screen what buses are arriving next to the Washington & State stop and how much time they have to get to the bus.
 </p>
     </section>
-    <hr class="section-divider2">
 
-    <section>
+    <section class="bb-research">
       <h2>RESEARCH</h2>
       <h3>USER SURVEY</h3>
       <p> I asked questions related to commuting apps currently used, what features they enjoy, what’s most frustrating to users and what new features they would like to see. </p>
 <a href="#">View results</a>
+<p>Key takeaways from the survey:</p>
+<p>- Users are concerned about budget when it comes to these apps, when asked about their features users mentioned the app being free, present full schedules (8), real time updates and ETA (9)</p>
+<p>- 100% of participants get to their bus stop by walking (and it takes them 5 minutes or less to get there) </p>
+<p>- Main app used is google maps (11)</p>
     </section>
-    <section>
+
+    <section class="bb-comp">
       <h3>COMPETITIVE ANALYSIS</h3>
+      <div class="bbcomp-img">
+      <img src="/images/googlemaps.png" alt="Google Maps Logo">
+      <img src="/images/transit-app.png" alt="Transit App Logo">
+    </div>
        <p> I analyzed Google Maps and Transit app, my overall perception was that one of these two competitors
           would solve and/or cover the needs of bus riders but to my surprise, none of them really do which indicates that BusyBus
           could become a favorite as far as bus riders.</p>
     </section>
 
-
-    <section>
+    <section class="bb-ia">
       <h2>INFORMATION ARCHITECTURE</h2>
       <h3>USER STORIES</h3>
       <p> I selected the most relevant tasks to the MVP for my initial prototypes which includes adding destination and setting up notifications.</p>
@@ -89,21 +98,49 @@
     </table>
     </section>
 
-<section>
+<section class="bb-sketch">
   <h2>Paper Prototype</h2>
   <p>These screens are  based on actions all users can take when opening the app to plan their bus commute. They can see their currently location, choose their prefered route and choose which alerts they want to receive for the particular bus they chose.</p>
-  <img src="" alt="">
+  <img src="/images/busybus-sketch.png" alt="BusyBus Paper Prototype">
 </section>
 
-<section>
-  <h3></h3>
-  <p>In this phase, I asked users to go through the process of searching and selecting a route and setting up their notifications./p>
+<section class="bb-ut">
+  <h3>USABILITY TESTING RESULTS</h3>
+  <p>In this phase, I asked users to go through the process of searching and selecting a route and setting up their notifications.</p>
   <p>Key Takeaways:</p>
   <p>- For screen #2 clearer icons on the real time pointers that include bus numbers (probably bigger text and highlight them with a box). </p>
   <p>- For screen #3 the title on the header should have a different wording so that users are not confused as far as what kind of alerts or notifications they are choosing. This screen is to save particular notifications for a specific trip rather than general notifications. </p>
   <p>- The text below the chosen bus line that reads “Notify me when” could be switched over to the header and this could help with avoiding further confusion on this screen. For the save button at the bottom of screen #3, I would switch it to a call to action like “go” rather than “save” so users know that they have begun tracking their commute according to the alerts they chose.</p>
-
 </section>
+
+<section class="bb-hifi">
+  <h2>Hi-Fi Mockups</h2>
+  <p>Following the branding, requirements and user flows, wireframes transformed into hi-fi mockups focused on the desktop experience. I considered user feedback and design patterns as well to create an interface that was easy to use for both tiers of user personas.
+  </p>
+  <p><a href="#">See Mockups</a></p>
+
+  <div class="bb-proto">
+    <img src="images/busybus-v1.png" alt="BusyBus 1.0">
+    <img src="images/busybus-v2.png" alt="BusyBus 2.0">
+  </div>
+  <p>Version 1 - This screen includes the revisions according to the results from the initial research. Overall, there was a lot of confusion with screen #2 and what the purpose was,
+    it seemed a little redundant and not all users could easily identify what it was for. To avoid confusion, I created a screen that provides options right after adding the destination
+     so users can see the recommended routes according to their last stop. </p>
+     <p>Version 2 - This one is a reinterpretation of the original version with up to date
+        components that fit the latest visual elements used in IOS.</p>
+      </section>
+
+  <section class="bb-final">
+    <h2>The Final Result</h2>
+    <p>The final prototype offers a clear presentation of the bus information
+      needed for bus rides on the Washington State Station. Users will now
+      know when their bus is arriving to the station and how much time they have to get to the bus.
+</p>
+<p>Changes implemented - Adjusted information placement, added color code to identify active, delayed and
+   out of service buses. Switched wording on bus list from “Recommended” to “Arrivals”.
+ </p>
+     <a href="#">View Prototype</a>
+  </section>
 
       <footer>
         <section class="f-left">

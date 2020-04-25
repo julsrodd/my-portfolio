@@ -215,6 +215,28 @@ padding-top: 0px;
 margin-top: 0px;
 }
 
+.busybus-project {
+  background-color: #F3F5EF;
+  padding-left: 80px;
+}
+.busybus-project a {
+  font-family: Public Sans;
+  text-decoration: underline;
+  color: black;
+}
+
+.busybus-project a:hover {
+  color: #DB9034;
+}
+
+a.top2 {
+  font-weight: bold;
+  padding: 40px;
+  text-decoration: none;
+}
+
+
+
 /*billow case study*/
 
 .billow-banner{
@@ -658,39 +680,174 @@ section.b-improv p {
   padding: 150px 320px;
 }
 
-#myBtn {
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color:#CED0CA ; /* Set a background color */
-  font-weight: 700;
-  margin-top: 20px;
-  color: Black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  font-size: 18px; /* Increase font size */
-}
-
 
 /*busybus case study*/
 
+section.bb-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid #DB9034;
+  }
 
-.busybus-project {
-  background-color: #F3F5EF;
-  padding-left: 80px;
-}
-.busybus-project a {
-  font-family: Public Sans;
-  text-decoration: underline;
-  color: black;
-}
-
-.busybus-project a:hover {
-  color: #DB9034;
+section.bb-main img {
+  width:20%;
 }
 
+.bb-intro  {
+  width:500px;
+  margin-left: 200px;
+}
+
+.bb-intro {
+}
+
+section.bb-problem {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0px;
+padding:60px;
+border-bottom: 1px solid black;
+}
+
+section.bb-problem p {
+  width: 563px;
+  align-self: center;
+}
+
+section.bb-solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 60px;
+  border-bottom: 1px solid black;
+  background-color:#CED0CA
+}
+
+section.bb-solution p {
+  width: 650px;
+}
+
+section.bb-research {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px;
+}
+
+section.bb-research p {
+  width: 800px;
+}
+
+section.bb-comp {
+  margin:0px;
+  padding:40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: #CED0CA;
+
+}
+
+section.bb-comp p {
+  width: 800px;
+
+}
+
+.bbcomp-img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.bbcomp-img img {
+  padding: 20px;
+}
+
+section.bb-ia {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+section.bb-ia p {
+  width: 648px;
+}
+
+section.bb-sketch {
+  margin: 0px;
+  padding:60px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+background-color: #CED0CA;
+}
+
+section.bb-sketch p {
+  width: 800px;
+  padding: 20px;
+}
+
+section.bb-ut {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+text-align: left;
+border-bottom: 1px solid black;
+padding: 40px;
+}
+
+section.bb-ut p {
+  width: 800px;
+}
+
+section.bb-hifi {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #CED0CA;
+  border-bottom: 1px solid black;
+}
+
+section.bb-hifi p {
+  width: 800px;
+}
+
+section.bb-hifi a {
+  text-align: left;
+}
+
+.bb-proto {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+}
+
+section.bb-hifi img {
+  padding: 40px;
+}
+
+section.bb-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section.bb-final p {
+width: 800px;
+padding: 10px;
+}
 
 
 /*About Page */
@@ -775,7 +932,7 @@ section.a-cta h3 {
   width: 578px;
 }
 
-#contactme {
+button.c-button {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
