@@ -1013,7 +1013,7 @@ textarea {
   margin: 24px;
   padding-left: 10px;
   font-family: Public Sans;
-  color: #C4C4C4;
+  color: black;
   font-size: 20px;
   box-sizing: border-box;
   border: 1px solid #000000;
@@ -1062,19 +1062,115 @@ hr.orange-divider {
 
 @media screen and (min-width: 1025px) {
   .container {
-    background-color: pink;
+    background-color: purple;
     /*height:100vh;*/
     margin: 0 auto;
     width: 98rem;
   }
 }
 
-@media screen and (min-width: 768px) {
+/*tablet*/
+@media screen and (min-width: 768px) and (max-device-width: 1024px) {
   .container {
-    background-color: #F3F5EF;
-    /*grid-template-columns: 6fr 6fr;*/
-    /*height:100vh;*/
+    background-color: pink;
+    height:100vh;
     margin: 0 auto;
     width: 100%;
   }
+
+  h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size:24px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+.main-banner {
+  padding: 60px;
+
+}
+
+.main-banner img{
+  width: 120px;
+  padding-right: 0;
+  margin-right:0;
+  padding-top: 100px;
+  padding-left: 60px;
+
+}
+section.projects {
+
+}
+
+.billow-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.billow-image img{
+  width: 268px;
+}
+
+.left-square {
+  display:none;
+}
+
+.b1-container {
+  display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+}
+
+/*footer*/
+section.f-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    background-color: red;
+    margin:20px;
+    padding: 20px;
+  }
+  /*footer*/
+  section.f-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+  }
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
 }
