@@ -1060,8 +1060,27 @@ hr.orange-divider {
   align-items: center;
 }
 
-@media screen and (min-width: 1025px) {
-  .container {
+/* this is probably the only media query you need.*/
+@media screen and (max-width: 1024px) {
+
+  .billow-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+    align-items: center;
+  }
+
+  .left-square{
+    display: none;
+  }
+
+  .billow-image img{
+    width: 100%;
+  }
+
+  .container{
+    display: block;
     background-color: purple;
     /*height:100vh;*/
     margin: 0 auto;
@@ -1069,8 +1088,8 @@ hr.orange-divider {
   }
 }
 
-/*tablet*/
-@media screen and (min-width: 768px) and (max-device-width: 1024px) {
+/* use this one only to make minor tweaks for a smaller tablet screen after youve completed the above one and check the design on a tablet.*/
+@media screen and (max-width: 728px) {
   .container {
     background-color: pink;
     height:100vh;
@@ -1102,7 +1121,7 @@ hr.orange-divider {
   width: 120px;
   padding-right: 0;
   margin-right:0;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-left: 60px;
 
 }
@@ -1141,220 +1160,4 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
-
-@media screen and (max-width: 600px) {
-  .container {
-    background-color: red;
-    margin:20px;
-    padding: 20px;
-  }
-  /*footer*/
-  section.f-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-
-  }
-}
-
-.section {
-  background-color: #F3F5EF
-  color: black;
-  height: 20rem;
-  margin-top: 1rem;
-  padding: 100px 0px;
-}
-
-
-
- @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-    /*footer*/
-    section.f-left {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
-
-    /*homepage*/
-    .icon {
-    width: 120px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 125px;
-    padding-left: 60px;
-}
-
-    section.projects{
-      background-color: #F3F5EF;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 28px;
-    }
-
-    h2 {
-      font-size:24px;
-    }
-
-    h3 {
-      font-size: 20px;
-    }
-
-    p {
-      font-size: 16px;
-    }
-
-    .main-banner h2 {
-      justify-content: center;
-      text-align: left;
-      width: 976px;
-      height: 234px;
-      left: 154px;
-      top: 251px;
-    }
-
-    .main-banner{
-      padding: 20px;
-    }
-
-    .billow-project {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-    .billow-project p {
-      width: 237px;
-    }
-
-    .b1-container{
-      display: flex;
-    flex-direction: column;
-    align-content: start;
-    }
-
-    .b1-container a{
-      font-family: Public Sans;
-      line-height: 150%;
-      text-decoration: underline;
-      color: black;
-
-    }
-
-    .busybus-project {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .busybus-project p {
-    width: 237px;
-    line-height:150%;
-    }
-
-
-    .left-square {
-    display: none;
-
-    }
-
-    .b2-container img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 289px;
-        padding: 20px;
-      }
-
-    .right-square {
-      display: none;
-    }
-
-    .b3-container {
-    display: flex;
-    flex-direction: column;
-    align-content: start;
-    }
-
-    .b4-container img {
-    display: flex;
-    flex-direction: column;
-    }
-
-    hr.ca-divider {
-      width: 50%;
-    padding-top: 0px;
-    margin-top: 0px;
-    }
-
-    .busybus-project {
-      padding: 20px;
-      justify-content: center;
-      align-content: center;
-    }
-    .busybus-project a {
-      font-family: Public Sans;
-      text-decoration: underline;
-      color: black;
-    }
-
-    /*busybus*/
-
-    section.bb-main {
-      display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-    }
-
-    .bb-intro {
-      align-content: center;
-      text-align: center;
-      margin: 20px;
-      padding: 20px;
-    }
-
-}
-
-
-
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-    h1 {
-      font-size: 28px;
-    }
-
-    h2 {
-      font-size:24px;
-    }
-
-    h3 {
-      font-size: 20px;
-    }
-
-    p {
-      font-size: 16px;
-    }
-
-  .container {
-      display: flex;
-    flex-direction: column;
-    }
 }
