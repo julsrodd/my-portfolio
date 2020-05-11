@@ -10,10 +10,6 @@
   color: #DB9034;
 }
 
-.topnav #myLinks {
-  display: none;
-}
-
 .topnav {
   float: right;
   padding-top:20px;
@@ -33,6 +29,14 @@
   text-decoration: none;
 }
 
+/*mobile nav*/
+.mobilenav {
+  display:none;
+}
+
+i.fa.fa-bars {
+  display: none;
+}
 
 *{
   box-sizing: border-box;
@@ -1071,22 +1075,35 @@ hr.orange-divider {
 
 /* this is probably the only media query you need.*/
 @media screen and (max-width: 1024px) {
+  .container{
+    display: block;
+    background-color: purple;
+    /*height:100vh;*/
+    margin: 0 auto;
+    width: 48rem;
+  }
 
+  .topnav {
+  display: none;
+  }
+
+  i.fa.fa-bars {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
 
   /* Style the navigation menu */
-.topnav {
+.mobilenav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: relative;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
 
 /* Style navigation menu links */
-.topnav a {
+.mobilenav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -1095,7 +1112,7 @@ hr.orange-divider {
 }
 
 /* Style the hamburger menu */
-.topnav a.icon {
+.mobilenav a.icon {
   background: black;
   display: block;
   position: absolute;
@@ -1103,25 +1120,8 @@ hr.orange-divider {
   top: 0;
 }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-  .container{
-    display: block;
-    background-color: purple;
-    /*height:100vh;*/
-    margin: 0 auto;
-    width: 48rem;
-  }
 
   .billow-project{
     display: flex;
@@ -1535,10 +1535,48 @@ footer {
 @media screen and (max-width: 728px) {
   .container {
     background-color: pink;
-    height:100vh;
+    /*height:100vh;*/
     margin: 0 auto;
     width: 100%;
   }
+
+
+  .topnav {
+  display: none;
+  }
+
+  i.fa.fa-bars {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Style the navigation menu */
+.mobilenav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+
+/* Style navigation menu links */
+.mobilenav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.mobilenav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
   h1 {
         font-size: 28px;
@@ -1638,46 +1676,4 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
-}
-
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
 }
