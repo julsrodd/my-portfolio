@@ -10,6 +10,10 @@
   color: #DB9034;
 }
 
+.topnav #myLinks {
+  display: none;
+}
+
 .topnav {
   float: right;
   padding-top:20px;
@@ -866,9 +870,9 @@ border-bottom: 2px solid #DB9034;
 }
 
 section.about-main h2 {
-  width: 1016px;
+  width: 972px;
+  padding:40px;
   align-self: center;
-
 }
 
 
@@ -1033,6 +1037,7 @@ font-size: 20px;
 width: 343px;
 height: 63px;
 align-self: center;
+border-color: black;
 }
 
 
@@ -1066,6 +1071,49 @@ hr.orange-divider {
 
 /* this is probably the only media query you need.*/
 @media screen and (max-width: 1024px) {
+
+
+  /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
 
   .container{
     display: block;
@@ -1382,19 +1430,104 @@ padding-top: 10px;
     padding-top: 20px;
 }
 
+.pref-test p {
+  padding-bottom: 20px;
+
+}
+
 .pref-test2 {
     display: flex;
     flex-direction: column;
 }
 
+/*busybus case study*/
 
-/*footer*/
+section.bb-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 1px solid #DB9034;
+}
+
+.bb-intro {
+    width: 80%;
+    margin-left: 0px;
+}
+
+.bb-intro h1 {
+  text-align: center;
+  align-self: left;
+}
+
+/*contact*/
+
+section.contact-cta {
+    padding-top: 136px;
+    width: 70%;
+    align-items: center;
+    padding-left: 20px;
+}
+
 section.f-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 40px;
     align-items: center;
+}
+
+.left-cta {
+  align-self: center;
+
+}
+
+.contact-cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.c2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: none;
+    padding-bottom: 150px;
+}
+
+.c2-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    float: none;
+}
+
+/*busybus*/
+
+.bbcomp-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.bb-proto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #F3F5EF;
+    width: 100%;
+    border-top: 1px solid black;
 }
 }
 
@@ -1427,6 +1560,10 @@ section.f-left {
 
 }
 
+.intro-text h1 {
+    width: 286px;
+}
+
 .main-banner img{
   width: 120px;
   padding-right: 0;
@@ -1435,8 +1572,9 @@ section.f-left {
   padding-left: 60px;
 
 }
-section.projects {
 
+section.projects {
+    text-align: center;
 }
 
 .billow-project {
@@ -1449,6 +1587,17 @@ section.projects {
 
 .billow-image img{
   width: 268px;
+  padding-top: 20px;
+}
+
+.billow-project p {
+    width: 237px;
+    text-align: center;
+}
+
+.b1-container a {
+  font-size:16px;
+  align-self: center;
 }
 
 .left-square {
@@ -1462,7 +1611,26 @@ align-content: center;
 justify-content: center;
 }
 
+.busybus-project {
+  padding-left: 0px;
+}
+
+.busybus-project p {
+    width: 237px;
+    text-align: center;
+    line-height: 150%;
+}
+
+.busybus-project a {
+  font-size: 16px;
+  align-self: center;
+}
+
 /*footer*/
+
+.footer {
+width: 100%;
+}
 section.f-left {
     display: flex;
     flex-direction: column;
@@ -1470,4 +1638,46 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
