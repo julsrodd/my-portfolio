@@ -84,7 +84,7 @@ html {
 }
 .container {
   background-color:#F3F5EF;
-  display: grid;
+  display: block;
   /*grid-gap: 1rem 2rem;*/
   /*grid-template-columns: 1fr;*/
   /*height:100vh;*/
@@ -125,6 +125,10 @@ section.projects{
   height: 234px;
   left: 154px;
   top: 251px;
+}
+
+.intro-text h1 {
+  width:950px;
 }
 
 .main-banner{
@@ -316,11 +320,11 @@ padding: 20px;
 }
 
 .solution-p {
-  font-family: Public Sans;
   line-height: 150%;
   text-align: left;
-  padding-left: 350px;
-  padding-right:350px;
+  width: 700px;
+  align-self: center;
+  padding: 20px;
 }
 
 .billow-intro p {
@@ -1063,6 +1067,14 @@ hr.orange-divider {
 /* this is probably the only media query you need.*/
 @media screen and (max-width: 1024px) {
 
+  .container{
+    display: block;
+    background-color: purple;
+    /*height:100vh;*/
+    margin: 0 auto;
+    width: 48rem;
+  }
+
   .billow-project{
     display: flex;
     flex-direction: column;
@@ -1079,13 +1091,311 @@ hr.orange-divider {
     width: 100%;
   }
 
-  .container{
-    display: block;
-    background-color: purple;
-    /*height:100vh;*/
-    margin: 0 auto;
-    width: 98rem;
+.main-banner {
+  padding-top: 100px;
+  width: 376px;
+  padding-bottom:60px;
+  padding-left:80px;
+}
+
+.main-banner img{
+  width: 120px;
+  padding-right: 0;
+  margin-right:0;
+  padding-top: 80px;
+  padding-left: 60px;
+
+}
+
+.intro-text h1{
+  width: 572px;
+}
+section.projects {
+
+}
+
+.billow-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.billow-image img{
+  width: 268px;
+}
+
+.left-square {
+  display:none;
+}
+
+.b1-container {
+  display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+}
+
+.busybus-project {
+  display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-square {
+  display: none;
+}
+
+.busybus-image img {
+  width: 238px;
+  align-self: center;
+}
+
+/*billow case study*/
+.billow-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.billow-banner img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.problem-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+section.solution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 40px;
+}
+
+.solution-p {
+    line-height: 150%;
+    text-align: left;
+}
+
+.user-research {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 60px;
+    border-bottom: 1px solid black;
+}
+
+.ur1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+
+.user-research img {
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.up-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 60px;
+}
+
+.luisr {
+    width: 380px;
+    margin-left: 0px;
+    padding-top:20px;
+}
+
+
+
+section.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+section.table table {
+  width: 70%;
+  text-align: center;
+}
+
+.competitors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.competitors img {
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+    align-self: center;
+}
+
+
+.ca-section p {
+    width: 70%;
+    align-self: center;
+    padding-bottom: 20px;
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+.wf-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 20px;
+}
+
+.ut-1 {
+  padding:60px;
+}
+
+.ut-1 p {
+  width: 100%;
+}
+
+.brand-1 {
+  padding:40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-1 h3 {
+  text-align: center;
+}
+
+.brand-1 h2 {
+  text-align: center;
+}
+
+img.logo-sketches {
+  padding-right: 0px;
+  margin-right: 0px;
+  width: 50%;
+  align-self: center;
+}
+
+
+
+.brand-1 p {
+width: 100%;
+}
+
+section.brand-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 40px;
+}
+
+.bp-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bp-right img {
+    padding: 20px;
+    margin-left: 0px;
+}
+
+section.palette {
+    background-color: #CED0CA;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+
+section.palette p {
+    width: 90%;
+    padding: 10px;
+}
+
+.billow-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+}
+
+.billow-brand img {
+  align-items: center;
+}
+
+
+section.hf-mock {
+    margin: 0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
   }
+
+  section.hf-mock h2, h3 {
+padding-top: 10px;
+    text-align: center;
+}
+
+.hf-mock2 img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 662px;
+    padding-top: 20px;
+}
+
+.pref-test2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*footer*/
+section.f-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
 }
 
 /* use this one only to make minor tweaks for a smaller tablet screen after youve completed the above one and check the design on a tablet.*/
