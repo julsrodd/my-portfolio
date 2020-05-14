@@ -1072,6 +1072,7 @@ hr.orange-divider {
   width: 95%;
   align-items: center;
 }
+}
 
 /* this is probably the only media query you need.*/
 @media screen and (max-width: 1024px) {
@@ -1601,6 +1602,12 @@ section.f-left {
     float: none;
 }
 
+.contact-cta p {
+    width: auto;
+}
+
+
+
 /*busybus*/
 
 .bbcomp-img {
@@ -1825,11 +1832,22 @@ button.c-button {
 
 /*billow case study*/
 
-
-
 .p2-container p {
     width: auto;
     padding: 40px;
+}
+
+/*CONTACT*/
+input {
+  width:300px;
+}
+
+textarea {
+  width: 300px;
+}
+
+button[type="submit"] {
+  width: 200px;
 }
 /*footer*/
 
