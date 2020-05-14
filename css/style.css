@@ -1077,7 +1077,7 @@ hr.orange-divider {
 @media screen and (max-width: 1024px) {
   .container{
     display: block;
-    background-color: purple;
+    background-color: grey;
     /*height:100vh;*/
     margin: 0 auto;
     width: 48rem;
@@ -1091,7 +1091,7 @@ hr.orange-divider {
     display: block;
     padding: 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
   }
 
   /* Style the navigation menu */
@@ -1120,8 +1120,25 @@ hr.orange-divider {
   top: 0;
 }
 
+h1 {
+      font-size: 28px;
+    }
 
+    h2 {
+      font-size:24px;
+    }
 
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .intro-text h1 {
+    width: 70%;
+}
 
   .billow-project{
     display: flex;
@@ -1139,28 +1156,28 @@ hr.orange-divider {
     width: 100%;
   }
 
-.main-banner {
-  padding-top: 100px;
-  width: 376px;
-  padding-bottom:60px;
-  padding-left:80px;
+  .main-banner {
+      padding-top: 120px;
+      width: auto;
+      padding-bottom: 60px;
+      padding-left: 80px;
+  }
+
+.main-banner img {
+    width: 150px;
+    padding-right: 0;
+    margin-right: 0;
+    padding-top: 100px;
+    padding-left: 60px;
 }
 
-.main-banner img{
-  width: 120px;
-  padding-right: 0;
-  margin-right:0;
-  padding-top: 80px;
-  padding-left: 60px;
 
-}
 
-.intro-text h1{
-  width: 572px;
-}
 section.projects {
-
+    text-align: center;
+    height:0px;
 }
+
 
 .billow-project {
   display: flex;
@@ -1179,10 +1196,11 @@ section.projects {
 }
 
 .b1-container {
-  display: flex;
-flex-direction: column;
-align-content: center;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .busybus-project {
@@ -1190,6 +1208,7 @@ justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    padding-left: 0px;
 }
 
 .right-square {
@@ -1201,12 +1220,80 @@ justify-content: center;
   align-self: center;
 }
 
+
+/*about*/
+}
+section.about-main h2 {
+    width: auto;
+    padding: 40px;
+    align-self: center;
+}
+
+.bio h2 {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bio-photo {
+    align-self: center;
+    width: 40%;
+    padding-top: 40px;
+}
+
+section.a-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.bio p {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bio blockquote {
+    width: auto;
+}
+
+section.a-cta h3 {
+  width: 70%;
+}
+
 /*billow case study*/
+
+section.billow-banner {
+    padding-top: 80px;
+    border-bottom: 1px black solid;
+}
+
 .billow-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 0px;
+
+}
+
+.b-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 60px;
+    margin-left: 0px;
+    width: auto;
+}
+
+.b-container h1 {
+  text-align: center;
 }
 
 .billow-banner img {
@@ -1220,6 +1307,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 40px;
     border-bottom: 1px solid black;
 }
 
@@ -1256,7 +1344,7 @@ section.solution {
 }
 
 .user-research img {
-    width: 50%;
+    width: 100%;
     align-self: center;
     display: flex;
     flex-direction: row;
@@ -1422,6 +1510,10 @@ padding-top: 10px;
     text-align: center;
 }
 
+section.hf-mock p {
+    width: 100%;
+}
+
 .hf-mock2 img {
     display: flex;
     flex-direction: row;
@@ -1432,7 +1524,6 @@ padding-top: 10px;
 
 .pref-test p {
   padding-bottom: 20px;
-
 }
 
 .pref-test2 {
@@ -1461,11 +1552,13 @@ section.bb-main {
   align-self: left;
 }
 
+
+
 /*contact*/
 
 section.contact-cta {
     padding-top: 136px;
-    width: 70%;
+    width: auto;
     align-items: center;
     padding-left: 20px;
 }
@@ -1477,6 +1570,8 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
+
+
 
 .left-cta {
   align-self: center;
@@ -1540,6 +1635,11 @@ footer {
     width: 100%;
   }
 
+  .logo {
+      position: absolute;
+      height: 43px;
+      width: 49px;
+  }
 
   .topnav {
   display: none;
@@ -1598,9 +1698,11 @@ footer {
 
 }
 
-.intro-text h1 {
-    width: 286px;
+.intro-text {
+  padding-top: 40px;
 }
+
+
 
 .main-banner img{
   width: 120px;
@@ -1611,9 +1713,7 @@ footer {
 
 }
 
-section.projects {
-    text-align: center;
-}
+
 
 .billow-project {
   display: flex;
@@ -1664,6 +1764,73 @@ justify-content: center;
   align-self: center;
 }
 
+
+/*about*/
+
+section.about-main h2 {
+    width: 300px;
+    padding: 20px;
+    align-self: center;
+}
+
+.bio h2 {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio p {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bio blockquote {
+    width: auto;
+}
+
+.bio-photo {
+    align-self: center;
+    width: 40%;
+    padding-top: 40px;
+}
+
+.bio h3 {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    text-align: center;
+}
+
+section.a-cta h3 {
+    width: 70%;
+}
+
+section.a-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+button.c-button {
+  padding: 20px 40px;
+  font-size:16px;
+}
+
+
+
+/*billow case study*/
+
+
+
+.p2-container p {
+    width: auto;
+    padding: 40px;
+}
 /*footer*/
 
 .footer {

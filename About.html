@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 </head>
 
+<script src="js/mobilenav.js"></script>
+
 <body>
   <div class= "container">
   <section>
@@ -20,6 +22,20 @@
     <a href="Contact.html">Contact</a>
     </nav>
   </section>
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="mobilenav" id="mymobilenav">
+    <a href="Index.html">WORK</a>
+    <a class="active" href="About.html">ABOUT</a>
+    <a href="Contact.html">CONTACT</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 
     <section class="about-main">
       <h2> I'm Julianna, a UX Designer committed
@@ -97,8 +113,8 @@
             <!-- Copyright -->
           <p class="copyright">&copy; Designed and Developed by Julianna Rodríguez</p>
           <div class="footer-right">
-            <a href="https://github.com/julsrodd"><img src="/images/github-icon.png" alt="github"></a>
-            <a href="https://www.linkedin.com/in/juliannarodriguezdolsen/"><img src="/images/linkedin-icon.png" alt="linkedin"></a>
+            <a href="https://github.com/julsrodd"><img src="images/github-icon.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/juliannarodriguezdolsen/"><img src="images/linkedin-icon.png" alt="linkedin"></a>
             <a href="https://dribbble.com/julsrod"><img src="images/dribbble-icon.png" alt="dribbble"></a>
           </div>
           </section>
