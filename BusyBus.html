@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   </head>
+<script src="js/mobilenav.js"></script>
 
   <body>
     <div class= "container">
@@ -19,6 +20,20 @@
       <a href="Contact.html">Contact</a>
       </nav>
     </section>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="mobilenav" id="mymobilenav">
+      <a href="Index.html">Work</a>
+      <a href="About.html">About</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
     <section class="bb-main">
       <img src="images/busybus-final.png" alt="BusyBus Final">
       <div class="bb-intro">
