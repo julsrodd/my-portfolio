@@ -103,8 +103,7 @@ html {
 }
 
 section {
-/*float: left;*/
-margin: 1%;
+padding: 1%;
   width: 100%;
 }
 
