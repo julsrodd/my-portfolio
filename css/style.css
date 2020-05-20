@@ -171,11 +171,10 @@ align-content: start;
 }
 
 .busybus-project {
-  padding-left: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .busybus-project p {
@@ -198,15 +197,16 @@ width: 80%;
   color: #DB9034;
 }
 
-.right-square {
+.sq-container {
   position: absolute;
-  right: 0px;
+  right: 0;
 }
 
 .b3-container {
 display: flex;
 flex-direction: column;
 align-content: start;
+margin-left: 60px;
 }
 
 .b4-container img {
@@ -1208,12 +1208,12 @@ section.projects {
     padding-left: 0px;
 }
 
-.right-square {
+.sq-container {
   display: none;
 }
 
 .busybus-image img {
-  width: 238px;
+  width: 50%;
   align-self: center;
 }
 
@@ -1746,7 +1746,7 @@ section.main-banner {
   display:none;
 }
 
-.right-square {
+.sq-container {
   display: none;
 }
 
