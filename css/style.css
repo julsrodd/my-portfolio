@@ -1746,6 +1746,10 @@ section.main-banner {
   display:none;
 }
 
+.right-square {
+  display: none;
+}
+
 .b1-container {
   display: flex;
 flex-direction: column;
