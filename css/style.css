@@ -1631,7 +1631,7 @@ footer {
 /* use this one only to make minor tweaks for a smaller tablet screen after youve completed the above one and check the design on a tablet.*/
 @media screen and (max-width: 728px) {
   .container {
-    background-color: pink;
+    background-color: inherit;
     /*height:100vh;*/
     margin: 0 auto;
     width: 100%;
