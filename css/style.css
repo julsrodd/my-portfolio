@@ -54,7 +54,8 @@ color: #000000;
 }
 
 body {
-  background-color: #F3F5EF
+  background-color: #F3F5EF;
+  font-size:20px;
 }
 
 p{
@@ -84,7 +85,7 @@ h3 {
 
 html {
   background-color: #F3F5EF;
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .b1-container a:hover {
@@ -190,7 +191,15 @@ line-height:150%;
 .b2-container img{
   display: flex;
 flex-direction: row;
-width: 80%;
+}
+
+.billow-image {
+  width: 100%
+}
+
+.b2-container {
+  width: 80%;
+align-self: center;
 }
 
 .billow-project a:hover {
@@ -1092,7 +1101,6 @@ hr.orange-divider {
 @media screen and (max-width: 1024px) {
   .container{
     display: block;
-    background-color: grey;
     /*height:100vh;*/
     margin: 0 auto;
     width: 48rem;
@@ -1216,6 +1224,7 @@ section.projects {
     align-content: center;
     justify-content: center;
     padding: 20px;
+    text-align: center;
 }
 
 .busybus-project {
@@ -1233,6 +1242,11 @@ section.projects {
 .busybus-image img {
   width: 50%;
   align-self: center;
+}
+
+.b3-container {
+text-align: center;
+margin-left: 0;
 }
 
 
@@ -1881,4 +1895,5 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
+
 }
