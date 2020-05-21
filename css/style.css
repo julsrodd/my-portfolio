@@ -592,6 +592,7 @@ margin-right: 40px;
    justify-content: space-around;
    padding:40px;
    align-content: center;
+    align-items: center;
  }
 
 section.palette p {
@@ -1489,6 +1490,7 @@ section.palette {
     justify-content: center;
     padding: 40px;
     align-items: center;
+
 }
 
 section.palette p {
