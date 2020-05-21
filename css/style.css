@@ -635,6 +635,10 @@ section.hf-mock p {
   padding-right: 40px;
 }
 
+.hf-mock1 h3 {
+  padding-top: 20px;
+}
+
 section.pref-test {
     margin: 0px;
     padding: 60px;
@@ -643,6 +647,10 @@ section.pref-test {
   flex-direction:column;
  justify-content: center;
  align-items: center;
+}
+
+section.pref-test h3 {
+      padding-top: 20px;
 }
 
 /*.pref-test2 img {
@@ -1037,6 +1045,7 @@ textarea {
   border: 1px solid #000000;
   background-color: #F3F5EF;
   resize: none;
+  padding-top: 20px;
 }
 
 button[type="submit"] {
