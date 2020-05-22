@@ -1111,10 +1111,11 @@ hr.orange-divider {
 
   .topnav {
     float: right;
+    padding:20px;
   }
 
-  .topnav a {
-padding: 20px;
+.topnav a {
+padding: 10px;
   }
 
 /*hamburger menu
