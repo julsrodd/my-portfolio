@@ -1949,13 +1949,18 @@ section.f-left {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   display: block;
+  font-family: Public Sans;
+  text-transform: uppercase;
 }
 
 /* Style the hamburger menu */
 .mobilenav a.icon {
+
   background: black;
+  font-size: 16px;
+  text-transform: uppercase;
   display: block;
   position: absolute;
   right: 0;
