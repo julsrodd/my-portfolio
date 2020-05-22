@@ -1110,18 +1110,24 @@ hr.orange-divider {
   }
 
   .topnav {
-  display: none;
+    float: right;
   }
 
-  i.fa.fa-bars {
+  .topnav a {
+padding: 20px;
+  }
+
+/*hamburger menu
+
+ i.fa.fa-bars {
     display: block;
     padding: 20px;
     text-decoration: none;
     font-size: 40px;
-  }
+  }*/
 
   /* Style the navigation menu */
-.mobilenav {
+/*.mobilenav {
   overflow: hidden;
   background-color: #F3F5EF;
   position: absolute;
@@ -1129,26 +1135,27 @@ hr.orange-divider {
     top: 90px;
     width: 140px;
     z-index: 1;
-}
+}*/
 
 
 /* Style navigation menu links */
-.mobilenav a {
+/*.mobilenav a {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
-}
+}*/
 
 /* Style the hamburger menu */
-.mobilenav a.icon {
+/*.mobilenav a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-}
+}*/
+
 
 h1 {
       font-size: 28px;
@@ -1669,7 +1676,7 @@ footer {
 }
 
 /* use this one only to make minor tweaks for a smaller tablet screen after youve completed the above one and check the design on a tablet.*/
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
   .container {
     background-color: inherit;
     /*height:100vh;*/
@@ -1684,10 +1691,16 @@ footer {
   }
 
   .topnav {
-  display: none;
+    float: right;
+    padding:20px;
   }
 
-  i.fa.fa-bars {
+  .topnav a {
+padding: 20px;
+  }
+
+
+  /*i.fa.fa-bars {
     display: block;
     padding: 20px;
     text-decoration: none;
@@ -1695,7 +1708,7 @@ footer {
   }
 
   /* Style the navigation menu */
-.mobilenav {
+/*.mobilenav {
   overflow: hidden;
   background-color: black;
   position: relative;
@@ -1703,7 +1716,7 @@ footer {
 
 
 /* Style navigation menu links */
-.mobilenav a {
+/*.mobilenav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -1712,13 +1725,13 @@ footer {
 }
 
 /* Style the hamburger menu */
-.mobilenav a.icon {
+/*.mobilenav a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-}
+}*/
 
   h1 {
         font-size: 28px;
