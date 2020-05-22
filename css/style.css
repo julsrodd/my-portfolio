@@ -1908,7 +1908,46 @@ section.f-left {
 }
 
 @media screen and (max-width: 375px) {
+  .topnav {
+  display: none;
+  }
 
+  i.fa.fa-bars {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  /* Style the navigation menu */
+.mobilenav {
+  overflow: hidden;
+  background-color: #F3F5EF;
+  position: absolute;
+    right: 20px;
+    top: 90px;
+    width: 140px;
+    z-index: 1;
+}
+
+
+/* Style navigation menu links */
+.mobilenav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.mobilenav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
   }
 
 }
