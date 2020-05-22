@@ -119,6 +119,7 @@ a {
 .icon {
 position: absolute;
 right: 0px;
+text-decoration: none;
 }
 
 section.projects{
@@ -148,6 +149,8 @@ section.projects{
   width: 237px;
 }
 
+
+
 .b1-container{
   display: flex;
 flex-direction: column;
@@ -165,6 +168,7 @@ align-content: start;
 .billow-project {
   background-color: #F3F5EF;
   padding-left: 80px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -194,11 +198,10 @@ flex-direction: row;
 }
 
 .billow-image {
-  width: 100%
+    width: 90%;
 }
 
 .b2-container {
-  width: 80%;
 align-self: center;
 }
 
@@ -1120,14 +1123,18 @@ hr.orange-divider {
   /* Style the navigation menu */
 .mobilenav {
   overflow: hidden;
-  background-color: black;
-  position: relative;
+  background-color: #F3F5EF;
+  position: absolute;
+    right: 20px;
+    top: 90px;
+    width: 140px;
+    z-index: 1;
 }
 
 
 /* Style navigation menu links */
 .mobilenav a {
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -1240,7 +1247,7 @@ section.projects {
 }
 
 .busybus-image img {
-  width: 50%;
+  /*width: 50%;*/
   align-self: center;
 }
 
@@ -1760,8 +1767,8 @@ section.main-banner {
   padding: 40px;
 }
 
-.billow-image img{
-  width: 268px;
+.billow-image {
+  width: 90%;
   padding-top: 20px;
 }
 
@@ -1788,6 +1795,10 @@ section.main-banner {
 flex-direction: column;
 align-content: center;
 justify-content: center;
+}
+
+.b2-container img {
+    width: 400px;
 }
 
 .busybus-project {
@@ -1895,5 +1906,9 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
+
+@media screen and (max-width: 375px) {
+
+  }
 
 }
