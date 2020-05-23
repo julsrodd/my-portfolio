@@ -1967,6 +1967,13 @@ section.f-left {
   right: 0;
   top: 0;
 }
-  }
+
+.main-banner img {
+  display: none;
+}
+
+.intro-text h1 {
+    width: 100%;
+}
 
 }
