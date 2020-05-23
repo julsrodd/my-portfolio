@@ -83,6 +83,11 @@ h3 {
   line-height: 150%;
 }
 
+h4 {
+  font-family: Public Sans;
+  font-size: 20px;
+}
+
 html {
   background-color: #F3F5EF;
   /*font-size: 20px;*/
@@ -145,10 +150,10 @@ section.projects{
   padding-bottom: 248px;
 }
 
-.billow-project p {
+.billow-project h4 {
   width: 237px;
+  line-height: 150%;
 }
-
 
 
 .b1-container{
@@ -182,7 +187,7 @@ align-content: start;
   justify-content: flex-start;
 }
 
-.busybus-project p {
+.busybus-project h4 {
 width: 237px;
 line-height:150%;
 }
@@ -1602,7 +1607,7 @@ section.bb-main {
 
 section.contact-cta {
     padding-top: 136px;
-    width: auto;
+    width: 100%;
     align-items: center;
     padding-left: 20px;
 }
@@ -1646,8 +1651,11 @@ section.f-left {
 }
 
 .contact-cta p {
-    width: auto;
     padding: 20px;
+}
+
+.contact-cta h1 {
+  text-align: center;
 }
 
 
@@ -1787,7 +1795,7 @@ section.main-banner {
   padding-top: 20px;
 }
 
-.billow-project p {
+.billow-project h4 {
     width: 237px;
     text-align: center;
 }
@@ -1820,7 +1828,7 @@ justify-content: center;
   padding-left: 0px;
 }
 
-.busybus-project p {
+.busybus-project h4 {
     width: 237px;
     text-align: center;
     line-height: 150%;
@@ -1898,13 +1906,6 @@ button.c-button {
 }
 
 /*CONTACT*/
-input {
-  width:300px;
-}
-
-textarea {
-  width: 300px;
-}
 
 button[type="submit"] {
   width: 200px;
