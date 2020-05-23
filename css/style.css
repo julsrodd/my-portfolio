@@ -1591,14 +1591,23 @@ section.bb-main {
     border-bottom: 1px solid #DB9034;
 }
 
-/*.bb-intro {
-    width: 100%;
+.bb-intro {
+    width: 50%
     margin-left: 0px;
-}*/
+    justify-content: center;
+}
 
 .bb-intro h1 {
-  text-align: center;
-  align-self: left;
+  text-align: left;
+  align-self: center;
+}
+
+.bb-intro p {
+
+}
+
+section.bb-solution p {
+    width: 100%;
 }
 
 
@@ -1775,7 +1784,7 @@ section.main-banner {
   width: 120px;
   padding-right: 0;
   margin-right:0;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-left: 60px;
 
 }
@@ -1847,10 +1856,10 @@ justify-content: center;
 /*about*/
 
 section.about-main h2 {
-    width: 300px;
-    padding: 20px;
+    width: 100%;
     align-self: center;
 }
+
 
 .bio h2 {
     margin: 0 auto;
@@ -1916,6 +1925,12 @@ button.c-button {
 
 
 /*BusyBus case study*/
+
+.bb-intro p {
+    width: 100%;
+    text-align: left;
+}
+
 section.bb-research p {
     width: 100%;
 }
@@ -2012,5 +2027,35 @@ section.f-left {
 
 .intro-text h1 {
     width: 100%;
+}
+
+/*busybus case study*/
+.bb-intro h1 {
+    text-align: center;
+    align-self: center;
+    width: 70%;
+}
+
+.bb-intro p {
+    width: 70%;
+    text-align: left;
+}
+
+section.bb-main img {
+    width: 50%;
+    padding-top: 60px;
+}
+
+section.bb-problem p {
+    width: 100%;
+    align-self: center;
+}
+
+section.bb-ia p {
+    width: 100%;
+}
+
+.bb-sketch img {
+  width: 100%;
 }
 }
