@@ -15,7 +15,7 @@
   padding-top:20px;
   padding-bottom:20px;
   padding-left: 80px;
-  padding-right: 160px;
+  /*padding-right: 160px;*/
 }
 
 .topnav a{
@@ -1106,7 +1106,7 @@ hr.orange-divider {
     display: block;
     /*height:100vh;*/
     margin: 0 auto;
-    width: 48rem;
+    width: 100%
   }
 
   .topnav {
@@ -1676,6 +1676,7 @@ footer {
     border-top: 1px solid black;
 }
 
+
 /* use this one only to make minor tweaks for a smaller tablet screen after youve completed the above one and check the design on a tablet.*/
 @media screen and (max-width: 768px) {
   .container {
@@ -1975,5 +1976,4 @@ section.f-left {
 .intro-text h1 {
     width: 100%;
 }
-
 }
