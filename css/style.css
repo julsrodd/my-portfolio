@@ -1591,10 +1591,10 @@ section.bb-main {
     border-bottom: 1px solid #DB9034;
 }
 
-.bb-intro {
-    width: 80%;
+/*.bb-intro {
+    width: 100%;
     margin-left: 0px;
-}
+}*/
 
 .bb-intro h1 {
   text-align: center;
@@ -1904,9 +1904,41 @@ button.c-button {
 
 /*billow case study*/
 
+.bb-intro p {
+  width: 100%;
+  text-align: center;
+}
+
 .p2-container p {
     width: auto;
     padding: 40px;
+}
+
+
+/*BusyBus case study*/
+section.bb-research p {
+    width: 100%;
+}
+
+section.bb-comp p {
+    width: 100%;
+}
+
+section.bb-sketch p {
+    width: 100%;
+    padding: 20px;
+}
+
+section.bb-ut p {
+    width: 100%;
+}
+
+section.bb-hifi p {
+    width: 100%;
+}
+
+section.bb-final p {
+    width: 100%;
 }
 
 /*CONTACT*/
