@@ -1424,8 +1424,10 @@ section.table {
     padding-bottom: 20px;
 }
 
+
+
 section.table table {
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 
@@ -1975,6 +1977,12 @@ section.f-left {
 }
 
 @media screen and (max-width: 375px) {
+
+  .logo {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
   .topnav {
   display: none;
   }
@@ -2029,6 +2037,238 @@ section.f-left {
     width: 100%;
 }
 
+/*home*/
+.b2-container img {
+    width: 100%;
+}
+
+section.projects {
+    background-color: #F3F5EF;
+    padding-bottom: 20px;
+}
+
+.busybus-image img {
+    width: 100%;
+    align-self: center;
+}
+
+/*billow case study*/
+
+.billow-banner img {
+    width: 80%;
+  }
+
+.b-container p {
+    width: 100%;
+}
+
+.b-container{
+width: 100%;
+}
+
+.problem-banner {
+  height: 100%;
+}
+
+.solution img {
+    align-self: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.p2-container p {
+    width: 100%;
+    padding: 20px;
+}
+
+.solution-p {
+    line-height: 150%;
+    text-align: left;
+    width: 100%;
+    align-self: center;
+    padding: 20px;
+}
+
+.solution img {
+    align-self: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.ur1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-research p {
+    padding-right: 0;
+}
+
+section.user-personas p {
+    align-self: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.mariap-container {
+    width: 100%;
+}
+
+.luisr {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 20px;
+}
+
+.ia h2 {
+  text-align: center;
+}
+
+section.ia p {
+    width: 100%;
+    padding: 10px;
+}
+
+table {
+    font-family: Public Sans;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 10px;
+    border-color: black;
+}
+
+.table img {
+    width: 100%;
+}
+
+section.ca-section {
+  padding: 20px;
+}
+
+.ca-section p {
+    width: 100%;
+    align-self: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.wf-container img {
+    padding: 10px;
+    width: 100%;
+}
+
+.wf-2 p {
+    width: 100%;
+}
+
+section.wireframes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ut-1 {
+    padding: 20px;
+}
+
+.brand-1 {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wf-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+section.palette p {
+    width: 100%;
+    padding: 10px;
+}
+
+.billow-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.billow-brand img {
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-self: center; */
+}
+
+.hf-mock1 {
+  padding-right: 0px;
+}
+
+section.hf-mock {
+    margin: 0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hf-mock2 img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.pref-test2 img{
+padding:20px;
+width: 100%;
+align-self: center;
+}
+
+section.pref-test {
+    /* margin: 0px; */
+    padding: 20px;
+    border-bottom: 1px solid black;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+section.result p {
+    width: 100%;
+}
+
+section.result {
+  padding: 20px;
+}
+
+section.b-improv {
+    background-color: #CED0CA;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.b-improv p {
+    width: 100%;
+}
+
+
 /*busybus case study*/
 .bb-intro h1 {
     text-align: center;
@@ -2057,5 +2297,45 @@ section.bb-ia p {
 
 .bb-sketch img {
   width: 100%;
+}
+
+/*contact*/
+input {
+    display: block;
+    font-family: Public Sans;
+    color: #e8e8e8;
+    background-color: #F3F5EF;
+    border: 1px solid #000000;
+    padding-left: 10px;
+    margin: 12px;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+}
+
+.contact-cta p {
+    width: 100%;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 116px;
+    margin: 12px;
+    padding-left: 10px;
+    font-family: Public Sans;
+    color: black;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    background-color: #F3F5EF;
+    resize: none;
+    padding-top: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 33px;
+    font-size: 16px;
 }
 }
