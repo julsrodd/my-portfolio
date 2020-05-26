@@ -742,11 +742,9 @@ section.bb-main img {
 
 .bb-intro  {
   width:500px;
-  margin-left: 200px;
+margin-left: 200px;
 }
 
-.bb-intro {
-}
 
 section.bb-problem {
 display: flex;
@@ -1594,13 +1592,13 @@ section.bb-main {
 }
 
 .bb-intro {
-    width: 50%
+    width: 50%;
     margin-left: 0px;
     justify-content: center;
 }
 
 .bb-intro h1 {
-  text-align: left;
+  text-align: center;
   align-self: center;
 }
 
