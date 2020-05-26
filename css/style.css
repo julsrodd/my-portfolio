@@ -2270,14 +2270,20 @@ section.b-improv p {
 
 
 /*busybus case study*/
+
+.bb-intro {
+    width: 100%;
+    margin-left: 0px;
+}
+
 .bb-intro h1 {
     text-align: center;
     align-self: center;
-    width: 70%;
+    width: 100%;
 }
 
 .bb-intro p {
-    width: 70%;
+    width: 100%;
     text-align: left;
 }
 
@@ -2293,6 +2299,10 @@ section.bb-problem p {
 
 section.bb-ia p {
     width: 100%;
+}
+
+.bb-ia h2 {
+    text-align: center;
 }
 
 table, th, td {
