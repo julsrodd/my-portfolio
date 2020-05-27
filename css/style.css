@@ -1299,13 +1299,14 @@ section.a-cta {
 
 .bio p {
     margin: 0 auto;
-    width: auto;
+    width: 100%;
     display: flex;
     align-items: center;
+    max-width: 70%;
 }
 
 .bio blockquote {
-    width: auto;
+    width: 60%;
 }
 
 section.a-cta h3 {
@@ -1379,6 +1380,10 @@ section.solution {
     text-align: left;
     padding: 60px;
     border-bottom: 1px solid black;
+}
+
+.user-research p {
+    padding-right: 0;
 }
 
 .ur1 {
@@ -1923,6 +1928,19 @@ button.c-button {
     padding: 40px;
 }
 
+.wf-2 p {
+    width: 100%;
+}
+
+section.result p {
+    width: 100%;
+}
+
+section.b-improv p {
+    width: 100%;
+}
+
+
 
 /*BusyBus case study*/
 
@@ -1956,6 +1974,7 @@ section.bb-final p {
     width: 100%;
 }
 
+
 /*CONTACT*/
 
 button[type="submit"] {
@@ -1973,6 +1992,8 @@ section.f-left {
     padding: 40px;
     align-items: center;
 }
+}
+
 
 @media screen and (max-width: 375px) {
 
@@ -2003,7 +2024,6 @@ section.f-left {
     z-index: 1;
 }
 
-
 /* Style navigation menu links */
 .mobilenav a {
   color: black;
@@ -2017,7 +2037,6 @@ section.f-left {
 
 /* Style the hamburger menu */
 .mobilenav a.icon {
-
   background: black;
   font-size: 16px;
   text-transform: uppercase;
@@ -2350,5 +2369,25 @@ button[type="submit"] {
     width: 100%;
     height: 33px;
     font-size: 16px;
+}
+}
+
+@media screen and (min-width: 1200px){
+
+/*Contact*/
+
+section.contact-cta {
+    padding-left: 60px;
+    padding-top: 136px;
+    width: 100%;
+}
+
+.c2-container form {
+  font-family: Public Sans;
+  width: 100%;
+  /* padding-left: 200px; */
+  display: flex;
+  flex-direction: column;
+  float: right;
 }
 }
