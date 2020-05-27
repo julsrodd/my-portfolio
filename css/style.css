@@ -1309,6 +1309,14 @@ section.a-cta {
     width: 60%;
 }
 
+.bio h3 {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 section.a-cta h3 {
   width: 70%;
 }
@@ -1615,6 +1623,12 @@ section.bb-solution p {
     width: 100%;
 }
 
+.pref-test2 img {
+  width: 100%;
+  padding: 20px;
+
+}
+
 
 
 /*contact*/
@@ -1882,7 +1896,7 @@ section.about-main h2 {
 }
 
 .bio blockquote {
-    width: auto;
+    width: 70%;
 }
 
 .bio-photo {
@@ -2283,6 +2297,19 @@ section.b-improv {
 
 section.b-improv p {
     width: 100%;
+}
+
+/*about*/
+.bio h3 {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.bio p {
+  width: 100%;
+    max-width: 100%;
 }
 
 
