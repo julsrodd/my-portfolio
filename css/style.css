@@ -134,14 +134,14 @@ section.projects{
 
 .main-banner h2 {
   text-align: left;
-  width: 976px;
+  width: 70%;
   height: 234px;
   left: 154px;
   top: 251px;
 }
 
 .intro-text h1 {
-  width:950px;
+    width: 70%;
 }
 
 .main-banner{
@@ -151,8 +151,8 @@ section.projects{
 }
 
 .billow-project h4 {
-  width: 237px;
-  line-height: 150%;
+    width: 60%;
+    line-height: 150%;
 }
 
 
@@ -181,14 +181,15 @@ align-content: start;
 }
 
 .busybus-project {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
+      background-color: #F3F5EF;
+      padding-left: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
 
 .busybus-project h4 {
-width: 237px;
+width: 60%;
 line-height:150%;
 }
 
@@ -222,6 +223,7 @@ align-self: center;
 .b3-container {
 display: flex;
 flex-direction: column;
+justify-content: center;
 align-content: start;
 margin-left: 60px;
 }
@@ -276,7 +278,7 @@ a.top2 {
 }
 
 .billow-banner img {
-  width: 580px;
+    width: 40%;
   display: flex;
   flex-direction: row;
 }
@@ -287,11 +289,11 @@ flex-direction: column;
 align-content: start;
 padding: 60px;
 margin-left:80px;
-width: 528px;
+width: 40%;
 }
 
 .b-container p {
-width: 486px;
+    width: 90%;
 }
 
 .b-container a {
@@ -431,7 +433,7 @@ width: 536px;
 section.table{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 
 }
@@ -1005,13 +1007,12 @@ height: 716px;
 top: 240px;
 }*/
 
-section.contact-cta {
-  padding-top: 136px;
-  width:1318px;
-}
 
 section.contact-cta {
-  padding-left: 118px;
+    padding-left: 80px;
+    justify-content: center;
+    padding-top: 136px;
+    width: 100%;
 }
 
 /*section.contact-cta h1 {
@@ -1029,7 +1030,7 @@ padding-bottom: 150px;
 
 .c2-container form {
   font-family: Public Sans;
-  width: 599px;
+  width: 100%;
   padding-left:200px;
   display: flex;
   flex-direction: column;
@@ -1102,6 +1103,21 @@ hr.orange-divider {
   align-items: center;
 }
 
+@media screen and (max-width: 1025px) {
+/*homepage*/
+
+.icon {
+  width: 20%;
+}
+
+.intro-text h1 {
+    width: 70%;
+    padding-left: 20px;
+}
+
+
+
+}
 
 /* this is probably the only media query you need.*/
 @media screen and (max-width: 1024px) {
