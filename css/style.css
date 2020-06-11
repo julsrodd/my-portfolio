@@ -53,6 +53,10 @@ line-height: 150%;
 color: #000000;
 }
 
+b {
+  font-weight: bold;
+}
+
 body {
   background-color: #F3F5EF;
   font-size:20px;
@@ -208,7 +212,7 @@ flex-direction: row;
 }
 
 .b2-container {
-align-self: center;
+width: 50%
 }
 
 .billow-project a:hover {
@@ -495,14 +499,13 @@ section.wireframes {
 
 
 section.ca-section {
-  background-color: #CED0CA;
+  background-color: #E3E7D9;
   width: 100%;
   padding:40px;
   margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border-bottom: 1px solid black;
 }
 
 .ca-section p {
@@ -549,10 +552,9 @@ section.wireframes a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #CED0CA;
+  background-color: #E3E7D9;
   margin: 0px;
   padding: 40px 378px 40px 328px;
-  border-bottom: 1px solid black;
 }
 
 .brand-1 {
@@ -603,9 +605,8 @@ margin-right: 40px;
  }
 
  section.palette {
-   background-color: #CED0CA;
+   background-color: #E3E7D9;
    margin: 0px;
-   border-bottom: 1px solid black;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -707,7 +708,7 @@ section.result h2 h3 {
 }
 
 section.b-improv {
-  background-color: #CED0CA;
+  background-color: #E3E7D9;
   margin: 0px;
       padding: 60px;
       display: flex;
@@ -768,8 +769,7 @@ section.bb-solution {
   align-items: center;
   margin: 0px;
   padding: 60px;
-  border-bottom: 1px solid black;
-  background-color:#CED0CA
+  background-color:#E3E7D9
 }
 
 section.bb-solution p {
@@ -793,8 +793,7 @@ section.bb-comp {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid black;
-  background-color: #CED0CA;
+  background-color: #E3E7D9;
 
 }
 
@@ -830,7 +829,7 @@ section.bb-sketch {
   display: flex;
   flex-direction: column;
 align-items: center;
-background-color: #CED0CA;
+background-color: #E3E7D9;
 }
 
 section.bb-sketch p {
@@ -858,8 +857,7 @@ section.bb-hifi {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color: #CED0CA;
-  border-bottom: 1px solid black;
+  background-color: #E3E7D9;
 }
 
 section.bb-hifi p {
