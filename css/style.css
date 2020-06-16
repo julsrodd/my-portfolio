@@ -389,6 +389,7 @@ img.insights {
   display: flex;
     flex-direction: row;
     justify-content: right;
+    width: 50%;
 }
 
 section.user-personas {
