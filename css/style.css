@@ -493,6 +493,7 @@ section.wireframes {
 
 .wf-container img {
   padding: 10px;
+  width: 100%;
 }
 
 
@@ -625,6 +626,10 @@ section.palette p {
    flex-direction: row;
 justify-content: flex-end;
    width: 454px;
+ }
+
+ .billow-brand img {
+   width: 100%;
  }
 
  section.hf-mock {
