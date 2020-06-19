@@ -34,7 +34,7 @@
 </section>
 
 
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="mobilenav" id="mymobilenav">
   <a class="active" href="index.html">Work</a>
@@ -42,9 +42,27 @@
   <a href="Contact.html">Contact</a>
   </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+   -->
+
+   <!-- The overlay -->
+   <div id="myNav" class="overlay">
+
+     <!-- Button to close the overlay navigation -->
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+     <!-- Overlay content -->
+     <div class="overlay-content">
+       <a class="active" href="index.html">Work</a>
+       <a href="About.html">About</a>
+       <a href="Contact.html">Contact</a>
+     </div>
+
+   </div>
+
+   <span class="mobilenavs" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 
 
@@ -52,10 +70,11 @@
     <section class="main-banner">
       <img class="icon" src="images/bauhaus-graphic.png" alt="bauhaus icon" align="right">
     <div class="intro-text">
-      <h1> Hi, I’M Julianna a UX Designer
+      <h1> Hi, <a class="home-link" href="About.html">I’M Julianna</a> a UX Designer
     Based in Brooklyn, New York </h1>
   </div>
     </section>
+    <a href="#"></a>
 
     <section class="projects">
       <a name="projects"></a>
