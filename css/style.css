@@ -2919,3 +2919,9 @@ section.contact-cta {
   float: right;
 }
 }
+
+@media (min-width: 375px) {
+  .overlay-content {
+    display: none;
+  }
+}
