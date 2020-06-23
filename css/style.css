@@ -1133,7 +1133,7 @@ hr.orange-divider {
   align-items: center;
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 2560px) {
 
   .overlay-content {
      display: none;
@@ -1173,10 +1173,6 @@ hr.orange-divider {
 
 .topnav a {
 padding: 10px;
-  }
-
-  .overlay-content {
-    display: none;
   }
 
 /*hamburger menu
