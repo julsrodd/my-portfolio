@@ -2974,9 +2974,3 @@ section.contact-cta {
     display: none;
   }
 }
-
-@media (min-width: 375px) {
-  .overlay-content {
-    display: none;
-  }
-}
