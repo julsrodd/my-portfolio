@@ -1133,13 +1133,6 @@ hr.orange-divider {
   align-items: center;
 }
 
-@media (min-width: 1025px) and (max-width: 2560px) {
-
-  .overlay-content {
-     display: none;
-   }
-
-}
 
 @media screen and (max-width: 1025px) {
 /*homepage*/
