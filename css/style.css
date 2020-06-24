@@ -1146,8 +1146,6 @@ hr.orange-divider {
     padding-left: 20px;
 }
 
-
-
 }
 
 /* this is probably the only media query you need.*/
@@ -1755,6 +1753,7 @@ footer {
     background-color: #F3F5EF;
     width: 100%;
     border-top: 1px solid black;
+}
 }
 
 
