@@ -559,6 +559,12 @@ padding: 20px;
   margin: 20px;
 }
 
+.airtable {
+  justify-content: center;
+}
+
+
+
 section.wireframes {
     display: flex;
     flex-direction: column;
