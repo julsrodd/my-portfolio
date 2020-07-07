@@ -477,7 +477,7 @@ table {
 }
 
 .table img {
-  width: 600px;
+  width: 400px;
 }
 
 table, th, td {
@@ -760,7 +760,7 @@ section.b-improv p {
 }
 
 .ut-section {
-  background-color: #CED0CA;
+  background-color: #E3E7D9;
   margin: 0px;
   padding: 150px 320px;
 }
@@ -1578,7 +1578,7 @@ section.brand-2 {
 }
 
 section.palette {
-    background-color: #CED0CA;
+    background-color: #E3E7D9;
     margin: 0px;
     border-bottom: 1px solid black;
     display: flex;
@@ -2395,7 +2395,7 @@ section.result {
 }
 
 section.b-improv {
-    background-color: #CED0CA;
+    background-color: ##E3E7D9;
     margin: 0px;
     padding: 20px;
     display: flex;
