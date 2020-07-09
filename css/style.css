@@ -347,6 +347,8 @@ section.billow-banner {
 .problem-banner {
   height: 295px;
   padding-left: 40px;
+  padding-bottom:60px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -416,7 +418,12 @@ color: white;
       padding: 70px 40px 44px;
       overflow: hidden;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+}
+
+.ic1 {
+  display: flex;
+  flex-direction: row;
 }
 
 .i1 {
@@ -435,6 +442,30 @@ color: white;
 .i3 {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+}
+
+.ic2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.i4 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.i5 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.i6 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .user-research img {
