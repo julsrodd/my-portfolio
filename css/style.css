@@ -161,6 +161,7 @@ text-decoration: none;
 section.projects{
   background-color: #F3F5EF;
   padding-bottom: 60px;
+  padding-left: 80px;
 }
 
 .main-banner h2 {
@@ -371,6 +372,7 @@ section.solution {
  display: flex;
  flex-direction: column;
  justify-content: center;
+ padding: 60px;
 }
 
 .solution h2 {
@@ -419,6 +421,7 @@ color: white;
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      width: 100%;
 }
 
 .ic1 {
@@ -622,10 +625,10 @@ padding: 20px;
   align-self: center;
 }
 
-.competitors img {
+/*.competitors img {
   padding:20px;
   margin: 20px;
-}
+}*/
 
 .airtable {
   justify-content: center;
@@ -861,7 +864,6 @@ flex-direction: column;
 align-items: center;
 margin: 0px;
 padding:60px;
-border-bottom: 1px solid black;
 }
 
 section.bb-problem p {
@@ -886,7 +888,7 @@ section.bb-research {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 40px;
+padding: 60px;
 }
 
 section.bb-research p {
@@ -895,7 +897,7 @@ section.bb-research p {
 
 section.bb-comp {
   margin:0px;
-  padding:40px;
+  padding:60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -923,6 +925,7 @@ section.bb-ia {
   display: flex;
   flex-direction: column;
 align-items: center;
+padding:60px;
 }
 
 section.bb-ia p {
@@ -949,8 +952,7 @@ section.bb-ut {
   flex-direction: column;
 align-items: center;
 text-align: left;
-border-bottom: 1px solid black;
-padding: 40px;
+padding: 60px;
 }
 
 section.bb-ut p {
@@ -962,7 +964,7 @@ section.bb-hifi {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
   background-color: #E3E7D9;
 }
 
@@ -989,7 +991,7 @@ section.bb-final {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 60px;
 }
 
 section.bb-final p {
@@ -1336,6 +1338,7 @@ h1 {
 section.projects {
     text-align: center;
     height:0px;
+    padding-left: 0px;
 }
 
 
@@ -1489,7 +1492,6 @@ section.solution {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
 }
 
 .solution-p {
@@ -1568,9 +1570,6 @@ section.table table {
 }
 
 .competitors img {
-    width: 60%;
-    padding: 20px;
-    margin: 20px;
     align-self: center;
 }
 
