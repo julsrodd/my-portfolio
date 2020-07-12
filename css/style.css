@@ -492,6 +492,7 @@ section.user-personas {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 60px;
 }
 
 section.user-personas h2 {
@@ -525,6 +526,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
+padding: 60px;
 }
 
 section.ia p {
@@ -536,6 +538,8 @@ section.table{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
 
 }
 
@@ -591,10 +595,6 @@ section.wireframes {
   padding: 10px;
   width: 100%;
 }
-
-
-
-
 
 section.ca-section {
   background-color: #E3E7D9;
@@ -658,7 +658,7 @@ section.wireframes a {
   justify-content: center;
   background-color: #E3E7D9;
   margin: 0px;
-  padding: 40px 378px 40px 328px;
+  padding: 60px 378px 60px 328px;
 }
 
 .brand-1 {
@@ -667,6 +667,7 @@ section.wireframes a {
    justify-content: center;
    align-items: center;
    align-content: center;
+   padding-top: 60px;
  }
 
  .brand-1 p {
@@ -683,7 +684,7 @@ section.wireframes a {
    flex-direction: row;
    justify-content: center;
    align-self: center;
-   padding: 40px;
+   padding: 60px;
  }
 
 
@@ -714,7 +715,7 @@ margin-right: 40px;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   padding:40px;
+   padding:60px;
    align-content: center;
     align-items: center;
  }
@@ -1648,7 +1649,6 @@ section.brand-2 {
 section.palette {
     background-color: #E3E7D9;
     margin: 0px;
-    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2053,6 +2053,24 @@ button.c-button {
 .bb-intro p {
   width: 100%;
   text-align: center;
+}
+
+.insights1 {
+  width: 100%;
+  padding: 20px;
+}
+
+.ic1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ic2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .p2-container p {
