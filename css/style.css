@@ -76,6 +76,18 @@ body {
   font-size:20px;
 }
 
+li {
+list-style: square;
+line-height: 150%;
+font-family: Public Sans;
+font-style: 16px;
+}
+
+li:before {
+  padding-right: 8px;
+  color: black; /* Or a color you prefer */
+}
+
 p{
 font-family: Public Sans;
   font-size: 1rem;
@@ -409,7 +421,6 @@ padding: 20px;
   flex-direction: row;
   justify-content: center;
   padding: 60px;
-  border-bottom: 1px solid black;
 }
 
 .insights1{
@@ -493,6 +504,7 @@ section.user-personas {
   flex-direction: column;
   justify-content: center;
   padding: 60px;
+  background-color: #E3E7D9
 }
 
 section.user-personas h2 {
@@ -505,10 +517,10 @@ section.user-personas p {
 }
 
 section.up-2 {
+  background-color: #E3E7D9;
   display: flex;
   flex-direction: row;
   justify-content:  center;
-  border-bottom: 1px solid black;
   padding:60px;
 }
 
@@ -737,7 +749,6 @@ justify-content: flex-end;
 
  section.hf-mock {
    margin: 0px;
-   border-bottom: 1px solid black;
    display: flex;
    flex-direction: row;
      justify-content: space-around;
@@ -770,9 +781,9 @@ section.hf-mock p {
 }
 
 section.pref-test {
+  background-color: #E3E7D9;
     margin: 0px;
     padding: 60px;
-    border-bottom: 1px solid black;
   display: flex;
   flex-direction:column;
  justify-content: center;
@@ -1507,7 +1518,6 @@ section.solution {
     align-items: center;
     text-align: left;
     padding: 60px;
-    border-bottom: 1px solid black;
 }
 
 .user-research p {
@@ -1676,7 +1686,6 @@ section.palette p {
 
 section.hf-mock {
     margin: 0px;
-    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2440,7 +2449,6 @@ section.palette p {
 
 section.hf-mock {
     margin: 0px;
-    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2465,7 +2473,6 @@ align-self: center;
 section.pref-test {
     /* margin: 0px; */
     padding: 20px;
-    border-bottom: 1px solid black;
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
