@@ -157,7 +157,6 @@ a {
   text-decoration: underline;
   color: black;
   padding-top: 10px;
-  font-size: 16px;
 }
 
 /*Homepage*/
@@ -444,49 +443,30 @@ padding:20px;
 .ic1 {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.ic1 img {
+  width: 100%;
 }
 
 .i1 {
   display: flex;
   flex-direction: column;
-  padding: 20px;
 }
 
 .i2 {
   display: flex;
   flex-direction: column;
-  padding:20px;
 }
 
 
 .i3 {
   display: flex;
   flex-direction: column;
-  padding: 20px;
 }
 
-.ic2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.i4 {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.i5 {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.i6 {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
 
 /*.user-research img {
   display: flex;
