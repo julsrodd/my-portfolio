@@ -156,6 +156,8 @@ a {
   line-height: 150%;
   text-decoration: underline;
   color: black;
+  padding-top: 10px;
+  font-size: 16px;
 }
 
 /*Homepage*/
@@ -424,15 +426,19 @@ padding: 20px;
 }
 
 .insights1{
-  background-color: #418AD5;
-color: white;
-      margin-bottom: 40px;
-      position: relative;
-      padding: 70px 40px 44px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
+/*  background-color: #418AD5;*/
+padding:20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.billow-insights {
+  width: 100%;
+  padding:20px;
+  margin:20px;
 }
 
 .ic1 {
@@ -482,11 +488,12 @@ color: white;
   padding: 20px;
 }
 
-.user-research img {
+/*.user-research img {
   display: flex;
     flex-direction: row;
     justify-content: center;
-}
+    width: 100%;
+}*/
 
 .user-research p {
   padding-right: 30px;
@@ -715,11 +722,11 @@ section.wireframes a {
    height: 251px;
  }
 
- img.logo-sketches {
-padding-right: 20px;
-margin-right: 40px;
+ /*img.logo-sketches {
+padding: 20px;
+margin: 20px;
 width: 100%;
- }
+ }*/
 
  .bp-right img {
    padding: 20px;
@@ -828,10 +835,15 @@ section.result p {
   width: 815px;
 }
 
-section.result h2 h3 {
+section.result h2 {
   padding: 20px;
   margin: 10px;
 }
+
+section.result h3 {
+
+}
+
 
 section.b-improv {
   background-color: #E3E7D9;
