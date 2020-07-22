@@ -81,6 +81,7 @@ list-style: square;
 line-height: 150%;
 font-family: Public Sans;
 font-style: 16px;
+margin-left: 20px;
 }
 
 li:before {
@@ -1543,7 +1544,6 @@ section.up-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
     padding: 60px;
 }
 
