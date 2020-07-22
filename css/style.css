@@ -555,7 +555,7 @@ table {
   height: 228px;
 }
 
-.table img {
+.user-flow img {
   width: 400px;
 }
 
@@ -2371,9 +2371,9 @@ table {
     border-color: black;
 }
 
-.table img {
+/*.user-flows img {
     width: 100%;
-}
+}*/
 
 section.ca-section {
   padding: 20px;
