@@ -2346,7 +2346,7 @@ element {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -2354,7 +2354,7 @@ element {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 100%;
+    width: 80%;
 }
 
 /*.problem-banner {
