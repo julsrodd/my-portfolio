@@ -322,7 +322,6 @@ a.top2 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid black;
 }
 }
 
@@ -359,7 +358,38 @@ section.billow-banner {
   width: 50%;
 }
 
-.problem-banner {
+
+section.problems1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #E3E7D9
+}
+
+
+.mockup {
+width: 50%;
+padding:20px;
+align-self: center;
+}
+
+.p1s-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  width: 70%;
+}
+
+.ps2-container {
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+  margin:20px;
+  width: 70%;
+}
+
+/*.problem-banner {
   height: 295px;
   padding-left: 40px;
   padding-bottom:60px;
@@ -371,7 +401,7 @@ section.billow-banner {
 }
 
 .p1-container {
-    /*width: 580px;*/
+    /*width: 580px;
     display: flex;
     flex-direction: row;
 }
@@ -405,7 +435,7 @@ padding: 20px;
   width: 700px;
   align-self: center;
   padding: 20px;
-}
+}*/
 
 .billow-intro p {
   width: 608px;
@@ -1459,7 +1489,6 @@ section.a-cta h3 {
 
 section.billow-banner {
     padding-top: 80px;
-    border-bottom: 1px black solid;
 }
 
 .billow-banner {
@@ -1498,6 +1527,8 @@ section.billow-banner {
     justify-content: center;
     padding: 40px;
 }
+
+
 
 section.solution {
     display: flex;
@@ -2300,7 +2331,33 @@ section.projects {
 width: 100%;
 }
 
-.problem-banner {
+section.problems1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+element {
+
+}
+.p1s-container {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.ps2-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+/*.problem-banner {
   height: 100%;
 }
 
@@ -2327,7 +2384,7 @@ width: 100%;
     align-self: center;
     width: 100%;
     padding: 20px;
-}
+}*/
 
 .ur1 {
     width: 100%;
