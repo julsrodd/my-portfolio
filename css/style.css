@@ -1633,7 +1633,7 @@ section.table table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     padding: 20px;
 }
 
@@ -2201,45 +2201,6 @@ section.f-left {
   display: none;
   }
 
-  /*i.fa.fa-bars {
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 40px;
-  }*/
-
-  /* Style the navigation menu */
-/*.mobilenav {
-  overflow: hidden;
-  background-color: #F3F5EF;
-  position: absolute;
-    right: 20px;
-    top: 90px;
-    width: 140px;
-    z-index: 1;
-}*/
-
-/* Style navigation menu links */
-/*.mobilenav a {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  display: block;
-  font-family: Public Sans;
-  text-transform: uppercase;
-}
-
-/* Style the hamburger menu */
-/*.mobilenav a.icon {
-  background: black;
-  font-size: 16px;
-  text-transform: uppercase;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}*/
 
 /* The Overlay (background) */
 .overlay {
@@ -2326,7 +2287,7 @@ section.projects {
 /*billow case study*/
 
 .billow-banner img {
-    width: 50%;
+    width: 100%;
   }
 
 .b-container p {
@@ -2363,34 +2324,6 @@ element {
     width: 80%;
 }
 
-/*.problem-banner {
-  height: 100%;
-}
-
-.solution img {
-    align-self: center;
-    width: 50%;
-    padding: 20px;
-}
-
-.p2-container p {
-    width: 100%;
-    padding: 20px;
-}
-
-.solution-p {
-    line-height: 150%;
-    text-align: left;
-    width: 100%;
-    align-self: center;
-    padding: 20px;
-}
-
-.solution img {
-    align-self: center;
-    width: 100%;
-    padding: 20px;
-}*/
 
 .ur1 {
     width: 100%;
@@ -2534,12 +2467,7 @@ align-self: center;
 }
 
 section.pref-test {
-    /* margin: 0px; */
     padding: 20px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 section.result p {
