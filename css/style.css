@@ -832,6 +832,11 @@ padding:20px;
 padding-top: 20px;
 }
 
+.pref-test p {
+  padding-bottom: 20px;
+  width: 60%;
+}
+
 
 
 section.result {
@@ -1743,6 +1748,7 @@ section.hf-mock p {
 
 .pref-test p {
   padding-bottom: 20px;
+  width: 60
 }
 
 .pref-test2 {
