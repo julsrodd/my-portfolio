@@ -10,6 +10,10 @@
   color: #DB9034;
 }
 
+a.logo-icon {
+  padding-left: 40px;
+}
+
 a:hover{
   color: #DB9034;
 }
@@ -1156,11 +1160,6 @@ button.c-button {
 .contact-cta p {
   width: 437px;
 }
-/*.contact-container {
-width: 1440px;
-height: 716px;
-top: 240px;
-}*/
 
 
 section.contact-cta {
@@ -1170,16 +1169,12 @@ section.contact-cta {
     width: 100%;
 }
 
-/*section.contact-cta h1 {
-padding-right: 300px;
-}*/
 
 .c2-container{
 display: flex;
 flex-direction: column;
 float: right;
 padding-bottom: 150px;
-
 
 }
 
@@ -1290,45 +1285,6 @@ hr.orange-divider {
 .topnav a {
 padding: 10px;
   }
-
-/*hamburger menu
-
- i.fa.fa-bars {
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 40px;
-  }*/
-
-  /* Style the navigation menu */
-/*.mobilenav {
-  overflow: hidden;
-  background-color: #F3F5EF;
-  position: absolute;
-    right: 20px;
-    top: 90px;
-    width: 140px;
-    z-index: 1;
-}*/
-
-
-/* Style navigation menu links */
-/*.mobilenav a {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}*/
-
-/* Style the hamburger menu */
-/*.mobilenav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}*/
 
 
 h1 {
@@ -2616,6 +2572,7 @@ button[type="submit"] {
     align-items: center;
     float: none;
     padding-bottom: 40px;
+    width: 80%;
 }
 
 .c2-container form {
