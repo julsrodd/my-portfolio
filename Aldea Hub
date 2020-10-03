@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167917195-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167917195-1');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billow</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/jrfavicon.png" sizes="50x50" type="image/png">
+  </head>
+
+  <script src="js/mobilenav.js"></script>
+
+  <body>
+    <a name="top"></a>
+    <div class= "container">
+    <section class="main-menu">
+      <a class="logo-icon" href="index.html"><img class="logo" src="images/jrlogo.png" alt="Julianna Rodríguez Logo" ></a>
+      <nav class="topnav">
+      <a href="index.html#projects">Work</a>
+      <a href="About.html">About</a>
+      <a href="Contact.html">Contact</a>
+      </nav>
+    </section>
+
+ <!-- The overlay -->
+ <div id="myNav" class="overlay">
+
+   <!-- Button to close the overlay navigation -->
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+   <!-- Overlay content -->
+   <div class="overlay-content">
+     <a href="index.html#projects">Work</a>
+     <a class="active" href="About.html">About</a>
+     <a href="Contact.html">Contact</a>
+   </div>
+
+ </div>
+
+ <span class="mobilenavs" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+    <section class="billow-banner">
+      <img class="mockup" src="images/billow-main.png" alt="Billow Mockup" >
+      <div class="b-container">
+        <h1> Billow </h1>
+        <p>
+        <b>Role</b> UX, Designer, Visual Designer, UX Research </p>
+        <p><b>Tools</b> Figma, Invision, UsabilityHub</p>
+        <p><b>Deliverables</b> User Surveys, Personas, Competitive Analysis,
+        User Stories & Flows, Paper Prototype, Wireframes, User Testing, Visual
+        Design </p>
+        <br>
+        <a href="https://invis.io/V5V9M8AMKZ9">View Prototype</a>
+      </div>
+    </section>
+
+<!--<section class="prob-mock" >
+  <img class="mockup" src="images/billow-mockup.png" alt="Billow Mockup 2" ></a>
+</section> -->
+    <section class="problems1">
+
+      <div class="p1s-container">
+      <h2>Problem</h2>
+      <p>Current cloud storage services don’t offer a seamless or intuitive user
+      experience. Non-tech users are not considered, which results in hesitation
+      in using cloud storage services. Cloud storage solutions fail to reach
+      their full potential by not looking deeper into their capabilities and
+      exploring features like collaboration, link storage, organization, and
+      customization that optimize the collaborative process.
+      </div>
+    <div class="ps2-container">
+        <h2>Solution</h2>
+        <p>Billow is a cloud storage service that offers users the ability to
+        customize content organization by providing an initial folder setup
+        based on their needs as individuals, freelancers, or business teams. Users
+        are also able to create content like documents, sheets and notes, organize
+        content, uploading files as well as sharing and collaborating in real-time. These
+        solutions reduce the drag for users of having to figure out how to organize
+        their files and content as well as reducing the amount of external communication
+         with real-time collaboration tools.</p>
+    </div>
+    </section>
+
+
+    <section class="user-research">
+      <div class="ur1">
+        <h2>Research</h2>
+        <h3>User Survey</h3>
+        <p>The solutions I came up with are based on the insights gathered on the
+        user surveys where I learned if participants use or don’t use cloud storage,
+        why to use it, what their frustrations, which features they prioritize
+        are and what would motivate them to use it.
+        The survey was completed by 19 participants.</p>
+        <p><a href="#">View results</a></p>
+      </div>
+      <div class="insights1">
+
+      <div class="ic1">
+
+        <div class="i1">
+    <img src="images/i1.png" alt="Insights 1">
+
+          </div>
+   <div class="i2">
+       <img src="images/i2.png" alt="Insights 2">
+  </div>
+  <div class="i3">
+      <img src="images/i3.png" alt="Insights 3">
+  </div>
+</div>
+
+    </section>
+
+    <section class="user-personas">
+      <h2>User Personas</h2>
+      <p>Based on the user surveys, I was able to identify two types of users;
+      the non-user who’s hesitant about using cloud storage because it seems
+      overwhelming and the active user who is interested in trying out a new
+      service that meets her needs.
+    </section>
+
+    <section class="up-2">
+      <div class="mariap-container">
+        <!--   <img class="mariap-test"src="images/mariapdoc.jpg" alt="Maria User Persona"> -->
+      <img class="user-persona" src="images/mariap.svg" alt="Maria User Persona" >
+      <p><b>Maria P.</b>
+      <p>Ux Designer</p>
+      <p><b>Age</b> 27/<b>Location</b> Seattle, WA</p>
+      <p>María is a UX designer based in Seattle,
+      Washington. She splits her time between working
+      at a design studio full time and developing her
+      personal project which is related to altering
+      clothing and sustainability.As a UX enthusiast,
+      she is always open to trying out new products
+      especially if they will meet her needs.</p>
+    </div>
+      <div class="luisr">
+      <img class="user-persona" src="images/luisr.svg" alt="Luis User Persona" ></a>
+      <p><b>Luis R.</b></p>
+      <p>Ux Designer </p>
+      <p><b>Age</b> 31/<b>Location</b> Brooklyn, NY</p>
+      <p>Luis has been a copywriter for 6+ years and is
+      currently based in New York. Outside of work,
+      he’s a music enthusiasts and enjoys going to
+      concerts frequently. Luis is a creature of habits
+      and can be a bit hesitant to using new services
+      like cloud storage but he is open to trying a
+      service out if it’s user friendly and easy to
+    navigate.
+  </p>
+</div>
+  </section>
+
+
+    <section class="ia">
+      <h2>Information Architecture</h2>
+      <h3>User Flows & User Stories </h3>
+    <p> For the user stories, I focused on what survey participants and personas
+      prioritized. I compiled a list of high and medium priorities to reach
+      the minimum viable product. Based on the user stories, I created user
+      flows to show how users will complete these tasks. </p>
+    </section>
+    <section class="table">
+          <table>
+          <tr>
+          <th>User Type</th>
+          <th>Action</th>
+          <th>Priority</th>
+          </tr>
+          <tr>
+          <td >As a new user</td>
+          <td>Choose initial folder organization</td>
+          <td>High</td>
+          </tr>
+          <tr>
+          <td>As a new user</td>
+          <td>Choose membership type</td>
+          <td>High</td>
+          </tr>
+          <tr>
+          <td>All users</td>
+          <td>Upload content (images,pdfs, documents)</td>
+          <td>High</td>
+          </tr>
+          <tr>
+          <td>All users</td>
+          <td>Share files with others</td>
+          <td>High</td>
+          </tr>
+          <tr>
+          <td>All users</td>
+          <td>Collaborate with others in real time on documents, spreadsheets and notes</td>
+          <td>High</td>
+          </tr>
+          <tr>
+          <td>All users</td>
+          <td>Share folders with others</td>
+          <td>High</td>
+          </tr>
+          <tr>
+          <td>All users</td>
+          <td>Create documents</td>
+          <td>Medium</td>
+          </tr>
+          <tr>
+          <td>As a new user</td>
+          <td>Sign up</td>
+          <td>Low</td>
+          </tr>
+          <tr>
+          <td>As a returning user</td>
+          <td>Sign in</td>
+          <td>Low</td>
+          </tr>
+        </table>
+        <div class="user-flow">
+        <img class="user-flows" src="images/user-flows.png" alt="Billow User Flows" ></a>
+        </div>
+
+        </section>
+
+
+    <section class="ca-section">
+      <h3>Competitive Analysis</h3>
+      <div class="competitors">
+        <div class="airtable">
+          <img class="competitor" src="images/airtable.png" alt="Airtable Logo" >
+        </div>
+      <div class="drive">
+      <img class="competitor" src="images/googledrive.png" alt="Google Drive Logo" >
+      </div>
+      <div class="evernote">
+        <img class="competitor" src="images/evernote.png" alt="Evernote" >
+      </div>
+    </div>
+      <p>After completing this analysis, I realized that each of these apps has different advantages according
+        to the user’s specific needs. For those looking to share files, documents, collaboration, and organizing
+        all of these contents, google drive seems to be at the top. For users looking for more of a project management
+        tool that includes collaboration Airtable might be the best option. Lastly, for those wanting to store, share,
+        and organize notes, Evernote is a good option. All of these competitors have vital offerings and benefits, with
+        Google Drive being the closest as far as crucial features the client provided on the brief. This new product has
+        a lot of opportunities to cover user's needs and concerns that these competitors don’t offer like storage space,
+        file organization, collaboration and sharing options, security, and creating documents.
+      </p>
+    </section>
+
+
+
+  <section class="wireframes">
+    <h2>Wireframes</h2>
+    <div class="wf-container">
+    <img class="wireframes" src="images/wireframesketches.jpeg" alt="Billow Wireframe Sketches" >
+    <img class="wireframes" src="images/wireframes-lowfi.png" alt="Billow Low Fi Wireframes" >
+  </div>
+  <div class="wf-2">
+    <p>
+    In this phase, I gathered all insights from research and surveys to go back to the drawing board. It
+    was clear that I needed to create a navigation that was easy to use for active users and non-users
+    who might not be as tech-savvy or might feel overwhelmed with trying new systems.</p>
+<a href="https://www.figma.com/proto/85UE5MVqKcip1PvJ23IcLP/Cloud-Storage-Wireframes?node-id=71245%3A1&viewport=456%2C53%2C0.04617941752076149&scaling=scale-down">See Wireframes</a>
+</div>
+
+</section>
+
+
+  <section class="ut-1">
+  <h3>Usability Testing Round 1</h3>
+  <p>This is where the iteration process began, the following are the key takeaways from this round:</p>
+  <ul>
+    <li>Main CTA on homepage must be revised it should probably make reference to each of the
+    membership tiers or to “learn more” or even “sign up now” so that users are not confused
+     or resist signing up because they assume they will be charged</li>
+     <li>Revise the wording on the upload window’s CTA it can say upload rather than open to avoid
+       confusion</li>
+       <li>Adding file/folder information on the dashboard (list view) as suggested by Manuel</li>
+  </ul>
+
+  </section>
+
+<section class="brand-1">
+  <h2>Designing the logo to evoke a feeling of Ease </h2>
+  <h3>The brand</h3>
+  <p>The brand name stands to represent a cloud but also how this service flows for users as far as it’s features of
+   creating, collaborating and sharing. The brand will be simple, light, somewhat playful and relatable. It will
+   also give users a  sense of effortlessness. I chose this direction so it appeals to all kinds of users (individuals
+   and teams) that will be using the product while keeping in mind that some can find cloud storage services confusing.
+</p>
+</section>
+<section class="brand-2">
+  <img class="logo-sketches" src="images/logosketchesv2.png" alt="Billow Logo Sketches">
+  <div class="bp-right">
+  <img class="moodboard" src="images/billow-moodboard.png" alt="Billow Brand Moodboard">
+  <img src="images/billowbw.png" alt="Billow Black And White Logo">
+</section>
+
+<section class="palette">
+  <div class="bb-1">
+    <h3>Color Palette & Style Guide</h3>
+    <p>Based on the mood, the brand assets where created. The logo
+     icon is a reinterpretation of a cloud to continue to evoke that
+     feeling of calmness and simplicity. For the logo, I chose a gradient
+     using the lighter blue to light pink. This same gradient is used subtly
+     in some elements like icons and banners. The main accent color is the
+     darker blue which creates balance and harmony with the rest of the shades.</p>
+    <a href="https://www.figma.com/proto/spSSkRZ4R5TJz9i1SCzw2W/Billow-Style-Guide?node-id=0%3A2&viewport=166%2C171%2C0.16887666285037994&scaling=min-zoom">See Brand Guidelines</a>
+  </div>
+<div class="billow-brand">
+    <img src="images/billow-brand.jpg" alt="Billow Brand">
+</div>
+</section>
+
+<section class="hf-mock">
+  <div class="hf-mock1">
+  <h2>Hi-Fi MockuPS</h2>
+  <p>Following the branding, requirements and user flows,
+   wireframes transformed into hi-fi mockups focused on the
+   desktop experience. I considered user feedback and design
+   patterns as well to create an interface that was easy to use for
+   both tiers of user personas.
+</p>
+  <a href="#">See Mockups</a>
+  <h3>Usability testing 2.0</h3>
+  <p>After implementing the branding and initial changes based on the
+   first round of user testing and adding the branding, I focused this
+   test on similar tasks to make sure that users understand and are
+   able to use the app seamlessly.</p>
+  <p>Key takeaways:</p>
+  <ul>
+    <li>Change colors on bottom CTA on the homepage so they are easier
+     to read</li>
+   <li>Add icons or some text on the first enrollment screen so that users
+   understand what choosing a free account versus a paid one entails.</li>
+   <li>Adding the option to see “date created” on the list view of the
+   dashboard</li>
+   <li>Revise link sharing options on sharing screen</li>
+ </ul>
+
+</div>
+  <div class="hf-mock2">
+  <img src="images/hifimockups.png" alt="Billow Hi Fi Mockups">
+</div>
+</section>
+<section class="pref-test">
+  <h2>Preference testing</h2>
+  <p>After receiving feedback from user testing interviews, I ran a preference test to get
+  even more clarity around specific items of the user interface.</p>
+  <div class="pref-test2">
+    <img src="images/usertest1.jpg" alt="Billow User Test 1">
+    <img src="images/usertest2.jpg" alt="Billow User Test 2">
+    <img src="images/usertest3.jpg" alt="Billow User Test 3">
+  </div>
+</section>
+
+<section class="result">
+  <h2>The final result</h2>
+  <p>After a few rounds of revisions based on results from user testing, I finalized the cloud service.
+  Minor tweaks were implemented in this round according to the user’s feedback.
+</p>
+<a href="https://invis.io/V5V9M8AMKZ9">Check out the prototype</a>
+<br>
+  <h3>Takeaways</h3>
+  <p>Creating this application taught me the importance of testing and prioritizing user’s needs and feedback
+   rather than relying on intuition. This lesson came across multiple times in the visual design phase,
+  preference test and last round of user testing. Aside from user feedback, I also learned the importance
+  of following guidelines and requirements in design as well as staying up to date when it comes to design
+  patterns and best practices. In the design phase, I had some doubts as far as the possibility of creating
+  a product that users could easily relate to and felt comfortable using. One of my biggest surprises was
+  definitely that even those who are hesitant or not inclined to use new technologies were able to
+  understand and use the app without major issues. Lastly, I learned the importance of focusing on key
+  screens first to ensure that the user’s frustrations and key needs are prioritized.
+</p>
+</section>
+
+<section class="b-improv">
+  <h3>Future Improvements</h3>
+  <p>
+If I had more time, I would integrate additional key features  like  notes, spreadsheets
+nd adding tags to allow users to create more types of content quickly, engage even further
+with their teams or clients. I would also work on filtering and sorting options for the dashboard
+as well as integrations (Design Tools, Project Management, Calendars) so that users have flexibility in their process.
+</p>
+<a class="top2" href="#top">Back To Top</a>
+</section>
+
+
+<footer>
+  <section class="f-left">
+    <!-- Copyright -->
+  <p class="copyright">&copy; Designed and Developed by Julianna Rodríguez</p>
+  <div class="footer-right">
+    <a href="https://github.com/julsrodd"><img src="images/github-icon.png" alt="github"></a>
+    <a href="https://www.linkedin.com/in/juliannarodriguezdolsen/"><img src="images/linkedin-icon.png" alt="linkedin"></a>
+    <a href="https://dribbble.com/julsrod"><img src="images/dribbble-icon.png" alt="dribbble"></a>
+  </div>
+  </section>
+</footer>
+</div>
+  </body>
+</html>
