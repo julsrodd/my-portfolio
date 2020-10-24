@@ -142,10 +142,6 @@ html {
 .container {
   background-color:#F3F5EF;
   display: block;
-  /*grid-gap: 1rem 2rem;*/
-  /*grid-template-columns: 1fr;*/
-  /*height:100vh;*/
-  /*margin: 0 auto;*/
   width: 100%;
     margin: 0px;
     padding: 0px;
@@ -393,53 +389,6 @@ align-self: center;
   width: 70%;
 }
 
-/*.problem-banner {
-  height: 295px;
-  padding-left: 40px;
-  padding-bottom:60px;
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.p1-container {
-    /*width: 580px;
-    display: flex;
-    flex-direction: row;
-}
-
-.p2-container p {
-  width: 600px;
-  padding-right: 40px;
-}
-
-section.solution {
-    background-color:#E3E7D9;
- display: flex;
- flex-direction: column;
- justify-content: center;
- padding: 60px;
-}
-
-.solution h2 {
-align-self: center;
-}
-
-.solution img {
-align-self: center;
-width: 30%;
-padding: 20px;
-}
-
-.solution-p {
-  line-height: 150%;
-  text-align: left;
-  width: 700px;
-  align-self: center;
-  padding: 20px;
-}*/
 
 .billow-intro p {
   width: 608px;
@@ -460,7 +409,6 @@ padding: 20px;
 }
 
 .insights1{
-/*  background-color: #418AD5;*/
 padding:20px;
   position: relative;
   overflow: hidden;
@@ -502,13 +450,6 @@ padding:20px;
   flex-direction: column;
 }
 
-
-/*.user-research img {
-  display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}*/
 
 .user-research p {
   padding-right: 30px;
@@ -1149,6 +1090,7 @@ button.c-button {
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 20px 60px; /* Some padding */
   font-size: 18px; /* Increase font size */
+  border-radius: 50px;
 }
 
 /*Contact*/
@@ -1224,6 +1166,7 @@ width: 343px;
 height: 63px;
 align-self: center;
 border-color: black;
+border-radius: 50px;
 }
 
 
