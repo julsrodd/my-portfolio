@@ -1002,7 +1002,6 @@ flex-direction:column;
 justify-content: center;
 align-content: center;
 padding-top: 80px;
-border-bottom: 2px solid #DB9034;
 }
 
 section.about-main h2 {
@@ -1013,7 +1012,6 @@ section.about-main h2 {
 
 
 section.bio {
-  border-bottom: 1px solid #DB9034;
   padding: 40px;
 }
 
@@ -1289,6 +1287,11 @@ section.projects {
     padding-left: 0px;
 }
 
+aldea-img.img {
+  width: 100%
+  align-self: center;
+}
+
 
 .billow-project {
   display: flex;
@@ -1389,6 +1392,16 @@ section.a-cta {
 
 section.a-cta h3 {
   width: 70%;
+}
+
+/*aldea case study*/
+
+section.up-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
 }
 
 /*billow case study*/
